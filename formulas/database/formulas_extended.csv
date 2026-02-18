@@ -1,0 +1,215 @@
+name,formula,description,category,difficulty,subject
+Percent change,"$\text{percent change} = \frac{\text{new} - \text{old}}{\text{old}} \times 100\%$","Percent increase or decrease",Arithmetic,1,Math
+Simple interest,"$I = P r t$","Interest = principal rate time",Arithmetic,1,Math
+Compound interest,"$A = P\left(1 + \frac{r}{n}\right)^{nt}$","Amount with compound interest",Arithmetic,2,Math
+Average speed,"$v_{avg} = \frac{\text{total distance}}{\text{total time}}$","Average speed",Arithmetic,1,Math
+Difference of squares,"$a^2 - b^2 = (a-b)(a+b)$","Factorization",Algebra,1,Math
+Perfect square trinomial,"$(a \pm b)^2 = a^2 \pm 2ab + b^2$","Square of binomial",Algebra,1,Math
+Difference of cubes,"$a^3 - b^3 = (a-b)(a^2 + ab + b^2)$","Factorization",Algebra,2,Math
+Sum of cubes,"$a^3 + b^3 = (a+b)(a^2 - ab + b^2)$","Factorization",Algebra,2,Math
+Remainder theorem,"$P(x) \div (x-c) \Rightarrow \text{remainder} = P(c)$","Polynomial remainder",Algebra,2,Math
+Factor theorem,"$P(c) = 0 \Leftrightarrow (x-c) \mid P(x)$","Root implies factor",Algebra,2,Math
+Logarithm quotient rule,"$\log\frac{a}{b} = \log a - \log b$","Quotient to difference",Algebra,1,Math
+Change of base,"$\log_b x = \frac{\log_k x}{\log_k b}$","Change logarithm base",Algebra,2,Math
+Exponent product,"$a^m \cdot a^n = a^{m+n}$","Same base multiply",Algebra,1,Math
+Exponent quotient,"$\frac{a^m}{a^n} = a^{m-n}$","Same base divide",Algebra,1,Math
+Power of power,"$(a^m)^n = a^{mn}$","Power raised to power",Algebra,1,Math
+Zero exponent,"$a^0 = 1$ for $a \neq 0$","Zero exponent",Algebra,1,Math
+Negative exponent,"$a^{-n} = \frac{1}{a^n}$","Negative exponent",Algebra,1,Math
+Area of square,"$A = s^2$","Side squared",Geometry,1,Math
+Perimeter of square,"$P = 4s$","Four sides",Geometry,1,Math
+Area of rectangle,"$A = \ell w$","Length times width",Geometry,1,Math
+Perimeter of rectangle,"$P = 2(\ell + w)$","Sum of sides",Geometry,1,Math
+Area of parallelogram,"$A = bh$","Base times height",Geometry,1,Math
+Area of trapezoid,"$A = \frac{1}{2}h(b_1 + b_2)$","Average bases times height",Geometry,1,Math
+Area of ellipse,"$A = \pi a b$","Semi-axes",Geometry,2,Math
+Area of regular polygon,"$A = \frac{1}{2} P a$","Perimeter times apothem",Geometry,2,Math
+Interior angle (n-gon),"$(n-2) \times 180°$","Sum interior angles",Geometry,1,Math
+Single interior angle (regular),"$\frac{(n-2)180°}{n}$","Regular n-gon",Geometry,2,Math
+Volume of cube,"$V = s^3$","Side cubed",Geometry,1,Math
+Surface area of cube,"$SA = 6s^2$","Six faces",Geometry,1,Math
+Volume of rectangular prism,"$V = \ell w h$","Length width height",Geometry,1,Math
+Surface area rectangular prism,"$SA = 2(\ell w + \ell h + wh)$","Sum of face areas",Geometry,1,Math
+Volume of cylinder,"$V = \pi r^2 h$","Circular base times height",Geometry,1,Math
+Surface area cylinder,"$SA = 2\pi r^2 + 2\pi r h$","Two bases plus lateral",Geometry,1,Math
+Volume of cone,"$V = \frac{1}{3}\pi r^2 h$","One-third cylinder",Geometry,1,Math
+Surface area cone,"$SA = \pi r^2 + \pi r s$","Base plus lateral",Geometry,2,Math
+Volume of sphere,"$V = \frac{4}{3}\pi r^3$","Four-thirds pi r cubed",Geometry,1,Math
+Surface area sphere,"$SA = 4\pi r^2$","Four pi r squared",Geometry,1,Math
+Volume of pyramid,"$V = \frac{1}{3} B h$","One-third base area times height",Geometry,1,Math
+Volume of frustum,"$V = \frac{1}{3}\pi h (r_1^2 + r_1 r_2 + r_2^2)$","Truncated cone",Geometry,3,Math
+Pythagorean identity sec,"$1 + \tan^2\theta = \sec^2\theta$","Secant squared",Trigonometry,2,Math
+Pythagorean identity csc,"$1 + \cot^2\theta = \csc^2\theta$","Cosecant squared",Trigonometry,2,Math
+Sum of angles sine,"$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$","Sine of sum",Trigonometry,2,Math
+Sum of angles cosine,"$\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$","Cosine of sum",Trigonometry,2,Math
+Difference of angles sine,"$\sin(\alpha - \beta) = \sin\alpha\cos\beta - \cos\alpha\sin\beta$","Sine of difference",Trigonometry,2,Math
+Difference of angles cosine,"$\cos(\alpha - \beta) = \cos\alpha\cos\beta + \sin\alpha\sin\beta$","Cosine of difference",Trigonometry,2,Math
+Half-angle sine,"$\sin\frac{\theta}{2} = \pm\sqrt{\frac{1-\cos\theta}{2}}$","Half angle",Trigonometry,3,Math
+Half-angle cosine,"$\cos\frac{\theta}{2} = \pm\sqrt{\frac{1+\cos\theta}{2}}$","Half angle",Trigonometry,3,Math
+Product to sum sine,"$\sin A \sin B = \frac{1}{2}[\cos(A-B) - \cos(A+B)]$","Product to sum",Trigonometry,3,Math
+Product to sum cosine,"$\cos A \cos B = \frac{1}{2}[\cos(A-B) + \cos(A+B)]$","Product to sum",Trigonometry,3,Math
+Sum to product sine,"$\sin A + \sin B = 2\sin\frac{A+B}{2}\cos\frac{A-B}{2}$","Sum to product",Trigonometry,3,Math
+Tangent sum,"$\tan(\alpha + \beta) = \frac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta}$","Tangent of sum",Trigonometry,2,Math
+Derivative of sine,"$\frac{d}{dx}\sin x = \cos x$","Derivative sin",Calculus,1,Math
+Derivative of cosine,"$\frac{d}{dx}\cos x = -\sin x$","Derivative cos",Calculus,1,Math
+Derivative of tangent,"$\frac{d}{dx}\tan x = \sec^2 x$","Derivative tan",Calculus,2,Math
+Derivative of secant,"$\frac{d}{dx}\sec x = \sec x \tan x$","Derivative sec",Calculus,2,Math
+Derivative of exponential,"$\frac{d}{dx}e^x = e^x$","Derivative exp",Calculus,1,Math
+Derivative of natural log,"$\frac{d}{dx}\ln x = \frac{1}{x}$","Derivative ln",Calculus,1,Math
+Derivative of inverse sine,"$\frac{d}{dx}\arcsin x = \frac{1}{\sqrt{1-x^2}}$","Derivative arcsin",Calculus,3,Math
+Derivative of inverse tangent,"$\frac{d}{dx}\arctan x = \frac{1}{1+x^2}$","Derivative arctan",Calculus,2,Math
+Integral of sine,"$\int \sin x\,dx = -\cos x + C$","Antiderivative sin",Calculus,1,Math
+Integral of cosine,"$\int \cos x\,dx = \sin x + C$","Antiderivative cos",Calculus,1,Math
+Integral of secant squared,"$\int \sec^2 x\,dx = \tan x + C$","Antiderivative sec²",Calculus,1,Math
+Integral of 1/x,"$\int \frac{1}{x}\,dx = \ln|x| + C$","Antiderivative 1/x",Calculus,1,Math
+Integral of e^x,"$\int e^x\,dx = e^x + C$","Antiderivative exp",Calculus,1,Math
+Limit definition of e,"$\lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n = e$","Definition of e",Calculus,3,Math
+L'Hôpital's rule,"$\lim \frac{f}{g} = \lim \frac{f'}{g'}$ when $\frac{0}{0}$ or $\frac{\infty}{\infty}$","Indeterminate limit",Calculus,3,Math
+Arc length (cartesian),"$L = \int_a^b \sqrt{1 + (dy/dx)^2}\,dx$","Arc length",Calculus,3,Math
+Surface area of revolution,"$SA = 2\pi \int_a^b y \sqrt{1+(dy/dx)^2}\,dx$","Surface of revolution",Calculus,4,Math
+Maclaurin sin,"$\sin x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n+1}}{(2n+1)!}$","Sine series",Calculus,3,Math
+Maclaurin cos,"$\cos x = \sum_{n=0}^{\infty} \frac{(-1)^n x^{2n}}{(2n)!}$","Cosine series",Calculus,3,Math
+Geometric series convergence,"$\sum_{n=0}^{\infty} ar^n = \frac{a}{1-r}$ if $|r|<1$","Infinite geometric",Calculus,2,Math
+Ratio test,"$\lim_{n\to\infty}\left|\frac{a_{n+1}}{a_n}\right| < 1 \Rightarrow \sum a_n$ converges","Ratio test",Calculus,3,Math
+Determinant 3x3 (Sarrus),"$\det(A) = a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32} - a_{13}a_{22}a_{31} - a_{11}a_{23}a_{32} - a_{12}a_{21}a_{33}$","3x3 determinant",Linear Algebra,2,Math
+Eigenvalue equation,"$A\mathbf{v} = \lambda \mathbf{v}$","Eigenvalue definition",Linear Algebra,3,Math
+Characteristic polynomial,"$\det(A - \lambda I) = 0$","Eigenvalues from determinant",Linear Algebra,3,Math
+Trace and determinant (2x2),"$\lambda_1 + \lambda_2 = \text{tr}(A)$, $\lambda_1 \lambda_2 = \det(A)$","Eigenvalues 2x2",Linear Algebra,3,Math
+Matrix multiplication (entry),"$(AB)_{ij} = \sum_k A_{ik} B_{kj}$","Matrix product entry",Linear Algebra,2,Math
+Inverse of 2x2,"$A^{-1} = \frac{1}{\det A}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$","2x2 inverse",Linear Algebra,2,Math
+Separable ODE,"$\frac{dy}{dx} = g(x)h(y) \Rightarrow \int \frac{dy}{h(y)} = \int g(x)\,dx$","Separable ODE",Differential Equations,2,Math
+Linear first-order ODE,"$\frac{dy}{dx} + P(x)y = Q(x)$ with integrating factor $\mu = e^{\int P\,dx}$","Linear first order",Differential Equations,3,Math
+Characteristic equation (ODE),"$ay'' + by' + cy = 0 \Rightarrow am^2 + bm + c = 0$","Second order constant coeff",Differential Equations,3,Math
+General solution distinct roots,"$y = C_1 e^{m_1 x} + C_2 e^{m_2 x}$","Real distinct roots",Differential Equations,3,Math
+General solution repeated root,"$y = (C_1 + C_2 x)e^{rx}$","Repeated root",Differential Equations,3,Math
+General solution complex roots,"$y = e^{\alpha x}(C_1\cos\beta x + C_2\sin\beta x)$","Complex conjugate roots",Differential Equations,4,Math
+Fermat's little theorem,"$a^p \equiv a \pmod{p}$ for prime $p$","Number theory",Number Theory,3,Math
+Euler's theorem,"$a^{\phi(n)} \equiv 1 \pmod{n}$ when $\gcd(a,n)=1$","Number theory",Number Theory,4,Math
+Divergence theorem,"$\iiint_V (\nabla \cdot \mathbf{F})\,dV = \oint_S \mathbf{F}\cdot d\mathbf{S}$","Gauss theorem",Calculus,5,Math
+Stokes' theorem,"$\iint_S (\nabla \times \mathbf{F})\cdot d\mathbf{S} = \oint_{\partial S} \mathbf{F}\cdot d\mathbf{r}$","Stokes theorem",Calculus,5,Math
+Green's theorem,"$\iint_D \left(\frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}\right)dA = \oint_C P\,dx + Q\,dy$","Green theorem",Calculus,4,Math
+Gradient,"$\nabla f = \frac{\partial f}{\partial x}\mathbf{i} + \frac{\partial f}{\partial y}\mathbf{j} + \frac{\partial f}{\partial z}\mathbf{k}$","Gradient vector",Calculus,3,Math
+Divergence,"$\nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}$","Divergence",Calculus,3,Math
+Curl,"$\nabla \times \mathbf{F}$","Curl of vector field",Calculus,4,Math
+Laplacian,"$\nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2}$","Laplacian",Calculus,4,Math
+Cauchy-Riemann equations,"$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}$, $\frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}$","Complex differentiability",Complex Analysis,5,Math
+Residue theorem,"$\oint_\gamma f(z)\,dz = 2\pi i \sum \text{Res}(f,a_k)$","Residue theorem",Complex Analysis,5,Math
+Triangle inequality,"$|z_1 + z_2| \leq |z_1| + |z_2|$","Complex or real",Algebra,1,Math
+Kinematic equation (no time),"$v^2 = v_0^2 + 2a(x - x_0)$","Velocity position",Mechanics,1,Physics
+Kinematic equation (position),"$x = x_0 + v_0 t + \frac{1}{2}a t^2$","Position with constant a",Mechanics,1,Physics
+Kinematic equation (velocity),"$v = v_0 + a t$","Velocity with constant a",Mechanics,1,Physics
+Free fall (distance),"$y = v_0 t - \frac{1}{2}g t^2$","Vertical motion",Mechanics,1,Physics
+Friction (kinetic),"$f_k = \mu_k N$","Kinetic friction",Mechanics,1,Physics
+Friction (static max),"$f_s \leq \mu_s N$","Static friction maximum",Mechanics,1,Physics
+Hooke's law,"$F = -kx$","Spring force",Mechanics,1,Physics
+Elastic potential energy,"$U = \frac{1}{2}kx^2$","Spring potential",Mechanics,1,Physics
+Simple pendulum period,"$T = 2\pi\sqrt{\frac{L}{g}}$","Period of pendulum",Mechanics,2,Physics
+Physical pendulum period,"$T = 2\pi\sqrt{\frac{I}{mgh}}$","Period physical pendulum",Mechanics,3,Physics
+Angular momentum,"$L = I\omega$","Rotational angular momentum",Mechanics,2,Physics
+Rotational kinetic energy,"$K = \frac{1}{2}I\omega^2$","Rotational KE",Mechanics,2,Physics
+Moment of inertia (point),"$I = m r^2$","Point mass",Mechanics,1,Physics
+Parallel axis theorem,"$I = I_{cm} + m d^2$","Moment of inertia parallel axis",Mechanics,3,Physics
+Conservation of energy,"$\Delta K + \Delta U + \Delta E_{int} = W_{ext}$","Energy conservation",Mechanics,2,Physics
+Conservation of momentum,"$\sum \mathbf{p}_i = \sum \mathbf{p}_f$","Momentum conservation",Mechanics,1,Physics
+Elastic collision (1D),"$v_1' = \frac{m_1-m_2}{m_1+m_2}v_1 + \frac{2m_2}{m_1+m_2}v_2$","1D elastic",Mechanics,3,Physics
+Efficiency,"$\eta = \frac{W_{out}}{W_{in}} \times 100\%$","Efficiency",Mechanics,1,Physics
+Continuity equation,"$A_1 v_1 = A_2 v_2$","Incompressible flow",Fluid dynamics,2,Physics
+Pascal's principle,"$\Delta P$ transmitted undiminished","Hydraulics",Fluid dynamics,2,Physics
+Archimedes' principle,"$F_b = \rho_{fluid} V_{disp} g$","Buoyant force",Fluid dynamics,1,Physics
+Viscosity (Newtonian),"$\tau = \mu \frac{dv}{dy}$","Shear stress",Fluid dynamics,3,Physics
+Maxwell-Gauss equation,"$\nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0}$","Gauss law electricity",Electromagnetism,4,Physics
+Maxwell no magnetic monopole,"$\nabla \cdot \mathbf{B} = 0$","No magnetic monopole",Electromagnetism,4,Physics
+Maxwell-Ampère equation,"$\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0\epsilon_0 \frac{\partial \mathbf{E}}{\partial t}$","Ampère-Maxwell",Electromagnetism,5,Physics
+Lorentz force,"$\mathbf{F} = q(\mathbf{E} + \mathbf{v} \times \mathbf{B})$","Force on charged particle",Electromagnetism,3,Physics
+Biot-Savart law,"$d\mathbf{B} = \frac{\mu_0}{4\pi}\frac{I\,d\mathbf{\ell} \times \hat{r}}{r^2}$","Magnetic field element",Electromagnetism,4,Physics
+Ampère's law,"$\oint \mathbf{B}\cdot d\mathbf{\ell} = \mu_0 I_{enc}$","Ampere law integral",Electromagnetism,3,Physics
+Faraday's law (integral),"$\mathcal{E} = -\frac{d\Phi_B}{dt}$","EMF from flux change",Electromagnetism,3,Physics
+Magnetic flux,"$\Phi_B = \int \mathbf{B} \cdot d\mathbf{A}$","Magnetic flux",Electromagnetism,2,Physics
+Energy in capacitor,"$U = \frac{1}{2}CV^2$","Stored energy capacitor",Electromagnetism,2,Physics
+Energy in inductor,"$U = \frac{1}{2}LI^2$","Stored energy inductor",Electromagnetism,2,Physics
+Resistors in series,"$R_{eq} = R_1 + R_2 + \cdots$","Series resistance",Electromagnetism,1,Physics
+Resistors in parallel,"$\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots$","Parallel resistance",Electromagnetism,1,Physics
+Capacitors in parallel,"$C_{eq} = C_1 + C_2 + \cdots$","Parallel capacitance",Electromagnetism,1,Physics
+Capacitors in series,"$\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + \cdots$","Series capacitance",Electromagnetism,1,Physics
+Joule heating,"$P = I^2 R$","Power dissipated resistor",Electromagnetism,1,Physics
+Electric potential (point),"$V = k \frac{q}{r}$","Electric potential point charge",Electromagnetism,2,Physics
+Reflection law,"$\theta_i = \theta_r$","Angle of incidence equals reflection",Optics,1,Physics
+Critical angle (total internal),"$\sin\theta_c = \frac{n_2}{n_1}$","Total internal reflection",Optics,2,Physics
+Magnification (lens),"$m = -\frac{d_i}{d_o} = \frac{h_i}{h_o}$","Lateral magnification",Optics,2,Physics
+Thin lens power,"$P = \frac{1}{f}$","Diopters",Optics,2,Physics
+Doppler (receding),"$f' = f \frac{v}{v + v_s}$","Source receding",Waves,3,Physics
+Standing wave (string),"$f_n = \frac{nv}{2L}$","Harmonics",Waves,2,Physics
+Beat frequency,"$f_{beat} = |f_1 - f_2|$","Beats",Waves,2,Physics
+Sound intensity level,"$\beta = 10 \log_{10}\frac{I}{I_0}$","Decibels",Waves,2,Physics
+Boyle's law,"$PV = \text{const}$ at constant T","Gas law",Thermodynamics,1,Physics
+Charles's law,"$V/T = \text{const}$ at constant P","Gas law",Thermodynamics,1,Physics
+Avogadro's law,"$V/n = \text{const}$ at constant T P","Gas law",Thermodynamics,1,Physics
+Efficiency (Carnot),"$\eta = 1 - \frac{T_c}{T_h}$","Carnot efficiency",Thermodynamics,3,Physics
+Second law (Clausius),"$\oint \frac{dQ}{T} \leq 0$","Clausius inequality",Thermodynamics,4,Physics
+Boltzmann entropy,"$S = k_B \ln \Omega$","Statistical entropy",Thermodynamics,4,Physics
+RMS speed (ideal gas),"$v_{rms} = \sqrt{\frac{3RT}{M}}$","Root mean square speed",Thermodynamics,2,Physics
+Time dilation,"$\Delta t' = \gamma \Delta t$ with $\gamma = 1/\sqrt{1-v^2/c^2}$","Special relativity time",Relativity,3,Physics
+Length contraction,"$L' = L/\gamma$","Special relativity length",Relativity,3,Physics
+Relativistic momentum,"$\mathbf{p} = \gamma m \mathbf{v}$","Relativistic momentum",Relativity,3,Physics
+Relativistic energy,"$E = \gamma m c^2$","Total relativistic energy",Relativity,4,Physics
+Rydberg formula,"$\frac{1}{\lambda} = R_H\left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right)$","Hydrogen spectrum",Quantum mechanics,3,Physics
+Heisenberg uncertainty (energy-time),"$\Delta E \Delta t \geq \frac{\hbar}{2}$","Energy-time uncertainty",Quantum mechanics,4,Physics
+Pauli exclusion,"No two fermions in same quantum state","Quantum mechanics",Quantum mechanics,4,Physics
+Blackbody (Stefan-Boltzmann),"$P = \sigma A T^4$","Radiated power",Thermodynamics,3,Physics
+Wien displacement,"$\lambda_{max} T = b$","Peak wavelength",Thermodynamics,3,Physics
+Geometric distribution PMF,"$P(X=k) = (1-p)^{k-1} p$","Trials until first success",Probability,2,Statistics
+Geometric mean (expected value),"$E[X] = \frac{1}{p}$","Mean geometric",Probability,2,Statistics
+Negative binomial PMF,"$P(X=k) = \binom{k-1}{r-1} p^r (1-p)^{k-r}$","r-th success",Probability,3,Statistics
+Uniform distribution (continuous),"$f(x) = \frac{1}{b-a}$ for $a \leq x \leq b$","Uniform PDF",Probability,1,Statistics
+Uniform mean and variance,"$E[X] = \frac{a+b}{2}$, $\text{Var}(X) = \frac{(b-a)^2}{12}$","Uniform moments",Probability,2,Statistics
+Gamma distribution PDF,"$f(x) = \frac{\lambda^r x^{r-1} e^{-\lambda x}}{\Gamma(r)}$ for $x>0$","Gamma PDF",Probability,4,Statistics
+Beta distribution PDF,"$f(x) = \frac{x^{\alpha-1}(1-x)^{\beta-1}}{B(\alpha,\beta)}$","Beta PDF",Probability,4,Statistics
+Central limit theorem,"$\bar{X} \stackrel{d}{\to} N(\mu, \sigma^2/n)$ as $n\to\infty$","CLT",Inference,4,Statistics
+Slutsky's theorem,"$X_n \to X$, $Y_n \to c \Rightarrow X_n Y_n \to cX$","Convergence",Inference,5,Statistics
+Likelihood function,"$L(\theta | x) = f(x|\theta)$","Likelihood",Inference,3,Statistics
+MLE (score equation),"$\frac{\partial \ell}{\partial \theta} = 0$","Max likelihood estimate",Inference,3,Statistics
+Fisher information,"$I(\theta) = -E\left[\frac{\partial^2 \ell}{\partial \theta^2}\right]$","Fisher information",Inference,4,Statistics
+Cramér-Rao lower bound,"$\text{Var}(\hat{\theta}) \geq \frac{1}{I(\theta)}$","CRLB",Inference,4,Statistics
+Wilcoxon rank-sum test,"$W = \sum \text{ranks}$ (one sample)","Nonparametric",Inference,3,Statistics
+Kruskal-Wallis H,"$H = \frac{12}{N(N+1)}\sum \frac{R_i^2}{n_i} - 3(N+1)$","Nonparametric ANOVA",Inference,4,Statistics
+Spearman correlation,"$\rho = 1 - \frac{6\sum d_i^2}{n(n^2-1)}$","Rank correlation",Descriptive,2,Statistics
+Covariance,"$\text{Cov}(X,Y) = E[(X-\mu_X)(Y-\mu_Y)]$","Covariance definition",Descriptive,2,Statistics
+Correlation from covariance,"$\rho_{XY} = \frac{\text{Cov}(X,Y)}{\sigma_X \sigma_Y}$","Correlation coefficient",Descriptive,2,Statistics
+Multiple regression,"$\hat{y} = \beta_0 + \beta_1 x_1 + \cdots + \beta_p x_p$","Multiple linear regression",Regression,2,Statistics
+Residual sum of squares,"$SS_{res} = \sum (y_i - \hat{y}_i)^2$","RSS",Regression,2,Statistics
+Total sum of squares,"$SS_{tot} = \sum (y_i - \bar{y})^2$","SST",Regression,1,Statistics
+Adjusted R-squared,"$R^2_{adj} = 1 - \frac{SS_{res}/(n-p-1)}{SS_{tot}/(n-1)}$","Adjusted R²",Regression,3,Statistics
+Standard error of slope,"$SE_{\hat{\beta}_1} = \frac{s}{\sqrt{\sum(x_i-\bar{x})^2}}$","SE of slope",Regression,2,Statistics
+ANOVA F-test (regression),"$F = \frac{MS_{reg}}{MS_{res}}$","Regression F-test",Inference,3,Statistics
+Durbin-Watson statistic,"$d = \frac{\sum(e_t - e_{t-1})^2}{\sum e_t^2}$","Autocorrelation",Regression,4,Statistics
+Logistic regression,"$P(Y=1|X) = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}}$","Logistic model",Regression,3,Statistics
+Odds ratio,"$\text{OR} = \frac{p/(1-p)}{q/(1-q)}$","Odds ratio",Regression,2,Statistics
+Sensitivity,"$\text{Sensitivity} = \frac{TP}{TP+FN}$","True positive rate",Inference,2,Statistics
+Specificity,"$\text{Specificity} = \frac{TN}{TN+FP}$","True negative rate",Inference,2,Statistics
+Precision,"$\text{Precision} = \frac{TP}{TP+FP}$","Positive predictive",Inference,2,Statistics
+F1 score,"$F_1 = 2 \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$","F1 score",Inference,2,Statistics
+Standard error of difference (proportions),"$SE = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}$","Two proportion SE",Inference,2,Statistics
+Pooled proportion,"$\hat{p}_{pool} = \frac{x_1 + x_2}{n_1 + n_2}$","Pooled p",Inference,2,Statistics
+Chi-square test (independence),"$\chi^2 = \sum \frac{(O - E)^2}{E}$","Independence test",Inference,3,Statistics
+Degrees of freedom (chi-square),"$df = (r-1)(c-1)$","Chi-square df",Inference,2,Statistics
+Bonferroni correction,"$\alpha_{new} = \alpha / k$","Multiple comparisons",Inference,3,Statistics
+Chebyshev inequality,"$P(|X-\mu| \geq k\sigma) \leq \frac{1}{k^2}$","Chebyshev",Probability,2,Statistics
+Markov inequality,"$P(X \geq a) \leq \frac{E[X]}{a}$ for $X \geq 0$","Markov",Probability,3,Statistics
+Jensen inequality,"$E[g(X)] \geq g(E[X])$ for convex g","Jensen",Probability,4,Statistics
+Law of large numbers,"$\bar{X}_n \stackrel{P}{\to} \mu$ as $n\to\infty$","LLN",Probability,3,Statistics
+Moment generating function,"$M_X(t) = E[e^{tX}]$","MGF",Probability,3,Statistics
+Convolution (sum of RVs),"$f_{X+Y}(z) = \int f_X(x) f_Y(z-x)\,dx$","Sum of independent",Probability,4,Statistics
+Bias of estimator,"$\text{Bias}(\hat{\theta}) = E[\hat{\theta}] - \theta$","Bias definition",Inference,2,Statistics
+MSE of estimator,"$\text{MSE} = \text{Var}(\hat{\theta}) + \text{Bias}^2$","Mean squared error",Inference,2,Statistics
+Consistent estimator,"$\hat{\theta}_n \stackrel{P}{\to} \theta$","Consistency",Inference,3,Statistics
+Asymptotic normality,"$\sqrt{n}(\hat{\theta} - \theta) \stackrel{d}{\to} N(0, \sigma^2)$","Asymptotic normal",Inference,4,Statistics
+Sample proportion,"$\hat{p} = \frac{X}{n}$","Sample proportion",Descriptive,1,Statistics
+Standard error (difference of means),"$SE = \sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}$","Two-sample SE",Inference,2,Statistics
+Paired t-test statistic,"$t = \frac{\bar{d}}{s_d/\sqrt{n}}$","Paired comparison",Inference,2,Statistics
+Effect size (Cohen d),"$d = \frac{\bar{x}_1 - \bar{x}_2}{s_{pooled}}$","Cohen d",Inference,2,Statistics
+Kurtosis,"$\kappa = \frac{\mu_4}{\sigma^4} - 3$","Excess kurtosis",Descriptive,3,Statistics
+Sample covariance,"$s_{xy} = \frac{1}{n-1}\sum (x_i - \bar{x})(y_i - \bar{y})$","Sample covariance",Descriptive,2,Statistics
+Partial correlation,"$r_{12|3} = \frac{r_{12} - r_{13}r_{23}}{\sqrt{(1-r_{13}^2)(1-r_{23}^2)}$","Partial correlation",Descriptive,3,Statistics
+Time series (AR(1)),"$X_t = \phi X_{t-1} + \epsilon_t$","Autoregressive order 1",Time Series,3,Statistics
+Moving average MA(1),"$X_t = \epsilon_t + \theta \epsilon_{t-1}$","MA(1)",Time Series,3,Statistics
+Exponential smoothing,"$\hat{y}_t = \alpha y_t + (1-\alpha)\hat{y}_{t-1}$","Exponential smoothing",Time Series,2,Statistics

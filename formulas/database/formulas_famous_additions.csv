@@ -1,0 +1,31 @@
+name,formula,description,category,difficulty,subject
+Imaginary unit,"$i^2 = -1$","Definition of the imaginary unit; foundation of complex numbers",Algebra,1,Math
+Euler's polyhedra formula,"$V - E + F = 2$","Vertices minus edges plus faces equals 2 for convex polyhedra; topological invariant",Geometry,2,Math
+Wave equation,"$\frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u$","Classical wave equation; describes strings, sound, light",Waves,4,Physics
+Heat equation,"$\frac{\partial u}{\partial t} = \alpha \nabla^2 u$","Diffusion of heat; parabolic PDE",Thermodynamics,4,Physics
+Fourier transform,"$\hat{f}(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t}\,dt$","Decomposes signal into frequencies; foundation of signal processing",Calculus,5,Math
+Fourier series,"$f(x) = a_0 + \sum_{n=1}^{\infty} \left( a_n \cos\frac{n\pi x}{L} + b_n \sin\frac{n\pi x}{L} \right)$","Representation of periodic functions as sum of sinusoids",Calculus,4,Math
+Navier-Stokes equation (incompressible),"$\rho\left(\frac{\partial \mathbf{v}}{\partial t} + (\mathbf{v}\cdot\nabla)\mathbf{v}\right) = -\nabla p + \mu\nabla^2\mathbf{v} + \mathbf{f}$","Newton's second law for fluid flow; millennium problem",Fluid dynamics,5,Physics
+Second law of thermodynamics (inequality),"$\Delta S_{universe} \geq 0$","Entropy of an isolated system never decreases",Thermodynamics,3,Physics
+Schrödinger equation (time-dependent),"$i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi$","Evolution of the wave function in quantum mechanics",Quantum mechanics,5,Physics
+Shannon entropy,"$H(X) = -\sum_i p(x_i) \log p(x_i)$","Information content of a random variable; foundation of information theory",Probability,3,Statistics
+Logistic map (chaos),"$x_{n+1} = r x_n (1 - x_n)$","Simple map exhibiting deterministic chaos; Ian Stewart's 17 equations",Dynamical Systems,3,Math
+Black-Scholes equation,"$\frac{\partial V}{\partial t} + \frac{1}{2}\sigma^2 S^2 \frac{\partial^2 V}{\partial S^2} + rS\frac{\partial V}{\partial S} - rV = 0$","PDE for option pricing; financial derivatives",Finance,5,Math
+Einstein field equations,"$G_{\mu\nu} + \Lambda g_{\mu\nu} = \kappa T_{\mu\nu}$","General relativity; spacetime curvature from matter and energy",Relativity,5,Physics
+Dirac equation,"$i\hbar \gamma^\mu \partial_\mu \psi - m c \psi = 0$","Relativistic quantum wave equation for spin-1/2 particles; predicted antimatter",Quantum mechanics,5,Physics
+Maxwell-Ampère law (integral),"$\oint \mathbf{B}\cdot d\mathbf{\ell} = \mu_0 I + \mu_0\epsilon_0 \frac{d\Phi_E}{dt}$","Ampère's law with displacement current",Electromagnetism,4,Physics
+Logarithm (product) — Stewart's 17,"$\log(xy) = \log x + \log y$","Ian Stewart: multiply by adding; led to slide rules and more",Algebra,1,Math
+Golden ratio,"$\phi = \frac{1 + \sqrt{5}}{2}$","Golden ratio; appears in geometry and nature",Geometry,1,Math
+Euler-Lagrange equation,"$\frac{\partial L}{\partial q} - \frac{d}{dt}\frac{\partial L}{\partial \dot{q}} = 0$","Equation of motion from Lagrangian mechanics",Mechanics,5,Physics
+Hamilton's equations,"$\dot{q}_i = \frac{\partial H}{\partial p_i}$, $\dot{p}_i = -\frac{\partial H}{\partial q_i}$","Canonical equations of classical mechanics",Mechanics,5,Physics
+Boltzmann equation (entropy),"$S = k_B \ln W$","Statistical mechanics; entropy and microstates",Thermodynamics,4,Physics
+Continuity equation (charge),"$\nabla \cdot \mathbf{J} + \frac{\partial \rho}{\partial t} = 0$","Conservation of electric charge",Electromagnetism,4,Physics
+Pauli exclusion principle (form),"$|\psi\rangle$ antisymmetric for fermions","No two identical fermions in same quantum state",Quantum mechanics,4,Physics
+Commutator (quantum),"$[\hat{A}, \hat{B}] = \hat{A}\hat{B} - \hat{B}\hat{A}$","Quantum mechanical commutator",Quantum mechanics,4,Physics
+Riemann zeta function,"$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s}$","Central in number theory and Riemann hypothesis",Number Theory,5,Math
+Prime number theorem (limit),"$\lim_{x\to\infty} \frac{\pi(x)}{x/\ln x} = 1$","Asymptotic density of primes",Number Theory,5,Math
+Quadratic reciprocity,"$\left(\frac{p}{q}\right)\left(\frac{q}{p}\right) = (-1)^{\frac{p-1}{2}\frac{q-1}{2}}$","Law of quadratic reciprocity; Gauss",Number Theory,5,Math
+Cauchy-Schwarz inequality,"$|\langle u,v \rangle| \leq \|u\| \|v\|$","Fundamental inequality in inner product spaces",Algebra,3,Math
+Triangle inequality (norm),"$\|x + y\| \leq \|x\| + \|y\|$","Norm of sum bounded by sum of norms",Algebra,1,Math
+Bessel function (differential eq),"$x^2 y'' + xy' + (x^2 - n^2)y = 0$","Bessel's equation; appears in waves and diffusion",Differential Equations,4,Math
+Legendre polynomials (Rodrigues),"$P_n(x) = \frac{1}{2^n n!} \frac{d^n}{dx^n}(x^2-1)^n$","Orthogonal polynomials; spherical harmonics",Calculus,4,Math
