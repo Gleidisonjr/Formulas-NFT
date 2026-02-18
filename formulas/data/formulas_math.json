@@ -1,0 +1,2732 @@
+[
+  {
+    "name": "Quadratic formula (Bhaskara)",
+    "formula": "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+    "description": "Roots of ax² + bx + c = 0",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Pythagorean theorem",
+    "formula": "$a^2 + b^2 = c^2$",
+    "description": "Right triangle: hypotenuse squared",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Euler's identity",
+    "formula": "$e^{i\\pi} + 1 = 0$",
+    "description": "Links e, i, π, 1, 0",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Definition of derivative",
+    "formula": "$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$",
+    "description": "Limit of difference quotient",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Fundamental theorem of calculus",
+    "formula": "$\\int_a^b f(x)\\,dx = F(b) - F(a)$",
+    "description": "Definite integral vs antiderivative",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Sum of first n integers",
+    "formula": "$1 + 2 + \\cdots + n = \\frac{n(n+1)}{2}$",
+    "description": "Closed form for sum 1 to n",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Binomial theorem",
+    "formula": "$(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$",
+    "description": "Expansion of (a+b)^n",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Euler's formula",
+    "formula": "$e^{i\\theta} = \\cos\\theta + i\\sin\\theta$",
+    "description": "Exponential and trig",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Gaussian integral",
+    "formula": "$\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}$",
+    "description": "Classic improper integral",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Law of cosines",
+    "formula": "$c^2 = a^2 + b^2 - 2ab\\cos C$",
+    "description": "Generalized Pythagorean",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Slope of a line",
+    "formula": "$m = \\frac{y_2 - y_1}{x_2 - x_1}$",
+    "description": "Slope between two points",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Area of circle",
+    "formula": "$A = \\pi r^2$",
+    "description": "Area with radius r",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Circumference of circle",
+    "formula": "$C = 2\\pi r$",
+    "description": "Perimeter of circle",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Sine rule",
+    "formula": "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$",
+    "description": "Sides and angles in triangle",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Power rule derivative",
+    "formula": "$\\frac{d}{dx}(x^n) = n x^{n-1}$",
+    "description": "Derivative of power",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Power rule integral",
+    "formula": "$\\int x^n dx = \\frac{x^{n+1}}{n+1} + C$",
+    "description": "Antiderivative of power",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Quadratic equation form",
+    "formula": "$ax^2 + bx + c = 0$",
+    "description": "Standard form",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Distance formula",
+    "formula": "$d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$",
+    "description": "Distance between two points",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Logarithm product rule",
+    "formula": "$\\log(ab) = \\log a + \\log b$",
+    "description": "Product to sum",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Logarithm power rule",
+    "formula": "$\\log(a^b) = b \\log a$",
+    "description": "Exponent to factor",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Law of sines",
+    "formula": "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$",
+    "description": "Triangle sides and angles",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Double-angle sine",
+    "formula": "$\\sin(2\\theta) = 2\\sin\\theta\\cos\\theta$",
+    "description": "Double angle",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Double-angle cosine",
+    "formula": "$\\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta$",
+    "description": "Double angle",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Pythagorean identity",
+    "formula": "$\\sin^2\\theta + \\cos^2\\theta = 1$",
+    "description": "Fundamental trig identity",
+    "category": "Trigonometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Geometric series sum",
+    "formula": "$S = a \\frac{1-r^n}{1-r}$",
+    "description": "Finite geometric sum",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Infinite geometric series",
+    "formula": "$S = \\frac{a}{1-r}$ for $|r|<1$",
+    "description": "Infinite sum",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Product rule derivative",
+    "formula": "$(fg)' = f'g + fg'$",
+    "description": "Derivative of product",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Quotient rule derivative",
+    "formula": "$\\left(\\frac{f}{g}\\right)' = \\frac{f'g - fg'}{g^2}$",
+    "description": "Derivative of quotient",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Chain rule",
+    "formula": "$\\frac{d}{dx}f(g(x)) = f'(g(x)) g'(x)$",
+    "description": "Derivative of composition",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Integration by parts",
+    "formula": "$\\int u\\,dv = uv - \\int v\\,du$",
+    "description": "Product integral",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Taylor series",
+    "formula": "$f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x-a)^n$",
+    "description": "Taylor expansion",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Maclaurin series for e^x",
+    "formula": "$e^x = \\sum_{n=0}^{\\infty} \\frac{x^n}{n!}$",
+    "description": "Exponential series",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Sum of squares",
+    "formula": "$\\sum_{i=1}^{n} i^2 = \\frac{n(n+1)(2n+1)}{6}$",
+    "description": "Sum of first n squares",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Determinant 2x2",
+    "formula": "$\\det \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix} = ad - bc$",
+    "description": "2x2 determinant",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Dot product",
+    "formula": "$\\mathbf{a} \\cdot \\mathbf{b} = |a||b|\\cos\\theta$",
+    "description": "Scalar product",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Cross product magnitude",
+    "formula": "$|\\mathbf{a} \\times \\mathbf{b}| = |a||b|\\sin\\theta$",
+    "description": "Vector product magnitude",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Quadratic discriminant",
+    "formula": "$\\Delta = b^2 - 4ac$",
+    "description": "Discriminant of quadratic",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Cosine rule (angle)",
+    "formula": "$\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$",
+    "description": "Angle from sides",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Area of triangle",
+    "formula": "$A = \\frac{1}{2} b h$",
+    "description": "Base times height",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Heron's formula",
+    "formula": "$A = \\sqrt{s(s-a)(s-b)(s-c)}$ with $s = \\frac{a+b+c}{2}$",
+    "description": "Area from sides",
+    "category": "Geometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Sum of angles triangle",
+    "formula": "$A + B + C = 180°$",
+    "description": "Interior angles",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Arc length",
+    "formula": "$s = r\\theta$",
+    "description": "Arc length (radians)",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Sector area",
+    "formula": "$A = \\frac{1}{2} r^2 \\theta$",
+    "description": "Circular sector",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Percent change",
+    "formula": "$\\text{percent change} = \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100\\%$",
+    "description": "Percent increase or decrease",
+    "category": "Arithmetic",
+    "difficulty": 1
+  },
+  {
+    "name": "Simple interest",
+    "formula": "$I = P r t$",
+    "description": "Interest = principal rate time",
+    "category": "Arithmetic",
+    "difficulty": 1
+  },
+  {
+    "name": "Compound interest",
+    "formula": "$A = P\\left(1 + \\frac{r}{n}\\right)^{nt}$",
+    "description": "Amount with compound interest",
+    "category": "Arithmetic",
+    "difficulty": 2
+  },
+  {
+    "name": "Average speed",
+    "formula": "$v_{avg} = \\frac{\\text{total distance}}{\\text{total time}}$",
+    "description": "Average speed",
+    "category": "Arithmetic",
+    "difficulty": 1
+  },
+  {
+    "name": "Difference of squares",
+    "formula": "$a^2 - b^2 = (a-b)(a+b)$",
+    "description": "Factorization",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Perfect square trinomial",
+    "formula": "$(a \\pm b)^2 = a^2 \\pm 2ab + b^2$",
+    "description": "Square of binomial",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Difference of cubes",
+    "formula": "$a^3 - b^3 = (a-b)(a^2 + ab + b^2)$",
+    "description": "Factorization",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Sum of cubes",
+    "formula": "$a^3 + b^3 = (a+b)(a^2 - ab + b^2)$",
+    "description": "Factorization",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Remainder theorem",
+    "formula": "$P(x) \\div (x-c) \\Rightarrow \\text{remainder} = P(c)$",
+    "description": "Polynomial remainder",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Factor theorem",
+    "formula": "$P(c) = 0 \\Leftrightarrow (x-c) \\mid P(x)$",
+    "description": "Root implies factor",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Logarithm quotient rule",
+    "formula": "$\\log\\frac{a}{b} = \\log a - \\log b$",
+    "description": "Quotient to difference",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Change of base",
+    "formula": "$\\log_b x = \\frac{\\log_k x}{\\log_k b}$",
+    "description": "Change logarithm base",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Exponent product",
+    "formula": "$a^m \\cdot a^n = a^{m+n}$",
+    "description": "Same base multiply",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Exponent quotient",
+    "formula": "$\\frac{a^m}{a^n} = a^{m-n}$",
+    "description": "Same base divide",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Power of power",
+    "formula": "$(a^m)^n = a^{mn}$",
+    "description": "Power raised to power",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Zero exponent",
+    "formula": "$a^0 = 1$ for $a \\neq 0$",
+    "description": "Zero exponent",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Negative exponent",
+    "formula": "$a^{-n} = \\frac{1}{a^n}$",
+    "description": "Negative exponent",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Area of square",
+    "formula": "$A = s^2$",
+    "description": "Side squared",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Perimeter of square",
+    "formula": "$P = 4s$",
+    "description": "Four sides",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Area of rectangle",
+    "formula": "$A = \\ell w$",
+    "description": "Length times width",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Perimeter of rectangle",
+    "formula": "$P = 2(\\ell + w)$",
+    "description": "Sum of sides",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Area of parallelogram",
+    "formula": "$A = bh$",
+    "description": "Base times height",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Area of trapezoid",
+    "formula": "$A = \\frac{1}{2}h(b_1 + b_2)$",
+    "description": "Average bases times height",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Area of ellipse",
+    "formula": "$A = \\pi a b$",
+    "description": "Semi-axes",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Area of regular polygon",
+    "formula": "$A = \\frac{1}{2} P a$",
+    "description": "Perimeter times apothem",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Interior angle (n-gon)",
+    "formula": "$(n-2) \\times 180°$",
+    "description": "Sum interior angles",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Single interior angle (regular)",
+    "formula": "$\\frac{(n-2)180°}{n}$",
+    "description": "Regular n-gon",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Volume of cube",
+    "formula": "$V = s^3$",
+    "description": "Side cubed",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Surface area of cube",
+    "formula": "$SA = 6s^2$",
+    "description": "Six faces",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Volume of rectangular prism",
+    "formula": "$V = \\ell w h$",
+    "description": "Length width height",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Surface area rectangular prism",
+    "formula": "$SA = 2(\\ell w + \\ell h + wh)$",
+    "description": "Sum of face areas",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Volume of cylinder",
+    "formula": "$V = \\pi r^2 h$",
+    "description": "Circular base times height",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Surface area cylinder",
+    "formula": "$SA = 2\\pi r^2 + 2\\pi r h$",
+    "description": "Two bases plus lateral",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Volume of cone",
+    "formula": "$V = \\frac{1}{3}\\pi r^2 h$",
+    "description": "One-third cylinder",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Surface area cone",
+    "formula": "$SA = \\pi r^2 + \\pi r s$",
+    "description": "Base plus lateral",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Volume of sphere",
+    "formula": "$V = \\frac{4}{3}\\pi r^3$",
+    "description": "Four-thirds pi r cubed",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Surface area sphere",
+    "formula": "$SA = 4\\pi r^2$",
+    "description": "Four pi r squared",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Volume of pyramid",
+    "formula": "$V = \\frac{1}{3} B h$",
+    "description": "One-third base area times height",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Volume of frustum",
+    "formula": "$V = \\frac{1}{3}\\pi h (r_1^2 + r_1 r_2 + r_2^2)$",
+    "description": "Truncated cone",
+    "category": "Geometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Pythagorean identity sec",
+    "formula": "$1 + \\tan^2\\theta = \\sec^2\\theta$",
+    "description": "Secant squared",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Pythagorean identity csc",
+    "formula": "$1 + \\cot^2\\theta = \\csc^2\\theta$",
+    "description": "Cosecant squared",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Sum of angles sine",
+    "formula": "$\\sin(\\alpha + \\beta) = \\sin\\alpha\\cos\\beta + \\cos\\alpha\\sin\\beta$",
+    "description": "Sine of sum",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Sum of angles cosine",
+    "formula": "$\\cos(\\alpha + \\beta) = \\cos\\alpha\\cos\\beta - \\sin\\alpha\\sin\\beta$",
+    "description": "Cosine of sum",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Difference of angles sine",
+    "formula": "$\\sin(\\alpha - \\beta) = \\sin\\alpha\\cos\\beta - \\cos\\alpha\\sin\\beta$",
+    "description": "Sine of difference",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Difference of angles cosine",
+    "formula": "$\\cos(\\alpha - \\beta) = \\cos\\alpha\\cos\\beta + \\sin\\alpha\\sin\\beta$",
+    "description": "Cosine of difference",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Half-angle sine",
+    "formula": "$\\sin\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1-\\cos\\theta}{2}}$",
+    "description": "Half angle",
+    "category": "Trigonometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Half-angle cosine",
+    "formula": "$\\cos\\frac{\\theta}{2} = \\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}$",
+    "description": "Half angle",
+    "category": "Trigonometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Product to sum sine",
+    "formula": "$\\sin A \\sin B = \\frac{1}{2}[\\cos(A-B) - \\cos(A+B)]$",
+    "description": "Product to sum",
+    "category": "Trigonometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Product to sum cosine",
+    "formula": "$\\cos A \\cos B = \\frac{1}{2}[\\cos(A-B) + \\cos(A+B)]$",
+    "description": "Product to sum",
+    "category": "Trigonometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Sum to product sine",
+    "formula": "$\\sin A + \\sin B = 2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}$",
+    "description": "Sum to product",
+    "category": "Trigonometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Tangent sum",
+    "formula": "$\\tan(\\alpha + \\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha\\tan\\beta}$",
+    "description": "Tangent of sum",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Derivative of sine",
+    "formula": "$\\frac{d}{dx}\\sin x = \\cos x$",
+    "description": "Derivative sin",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Derivative of cosine",
+    "formula": "$\\frac{d}{dx}\\cos x = -\\sin x$",
+    "description": "Derivative cos",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Derivative of tangent",
+    "formula": "$\\frac{d}{dx}\\tan x = \\sec^2 x$",
+    "description": "Derivative tan",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Derivative of secant",
+    "formula": "$\\frac{d}{dx}\\sec x = \\sec x \\tan x$",
+    "description": "Derivative sec",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Derivative of exponential",
+    "formula": "$\\frac{d}{dx}e^x = e^x$",
+    "description": "Derivative exp",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Derivative of natural log",
+    "formula": "$\\frac{d}{dx}\\ln x = \\frac{1}{x}$",
+    "description": "Derivative ln",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Derivative of inverse sine",
+    "formula": "$\\frac{d}{dx}\\arcsin x = \\frac{1}{\\sqrt{1-x^2}}$",
+    "description": "Derivative arcsin",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Derivative of inverse tangent",
+    "formula": "$\\frac{d}{dx}\\arctan x = \\frac{1}{1+x^2}$",
+    "description": "Derivative arctan",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Integral of sine",
+    "formula": "$\\int \\sin x\\,dx = -\\cos x + C$",
+    "description": "Antiderivative sin",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Integral of cosine",
+    "formula": "$\\int \\cos x\\,dx = \\sin x + C$",
+    "description": "Antiderivative cos",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Integral of secant squared",
+    "formula": "$\\int \\sec^2 x\\,dx = \\tan x + C$",
+    "description": "Antiderivative sec²",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Integral of 1/x",
+    "formula": "$\\int \\frac{1}{x}\\,dx = \\ln|x| + C$",
+    "description": "Antiderivative 1/x",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Integral of e^x",
+    "formula": "$\\int e^x\\,dx = e^x + C$",
+    "description": "Antiderivative exp",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Limit definition of e",
+    "formula": "$\\lim_{n\\to\\infty}\\left(1+\\frac{1}{n}\\right)^n = e$",
+    "description": "Definition of e",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "L'Hôpital's rule",
+    "formula": "$\\lim \\frac{f}{g} = \\lim \\frac{f'}{g'}$ when $\\frac{0}{0}$ or $\\frac{\\infty}{\\infty}$",
+    "description": "Indeterminate limit",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Arc length (cartesian)",
+    "formula": "$L = \\int_a^b \\sqrt{1 + (dy/dx)^2}\\,dx$",
+    "description": "Arc length",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Surface area of revolution",
+    "formula": "$SA = 2\\pi \\int_a^b y \\sqrt{1+(dy/dx)^2}\\,dx$",
+    "description": "Surface of revolution",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Maclaurin sin",
+    "formula": "$\\sin x = \\sum_{n=0}^{\\infty} \\frac{(-1)^n x^{2n+1}}{(2n+1)!}$",
+    "description": "Sine series",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Maclaurin cos",
+    "formula": "$\\cos x = \\sum_{n=0}^{\\infty} \\frac{(-1)^n x^{2n}}{(2n)!}$",
+    "description": "Cosine series",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Geometric series convergence",
+    "formula": "$\\sum_{n=0}^{\\infty} ar^n = \\frac{a}{1-r}$ if $|r|<1$",
+    "description": "Infinite geometric",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Ratio test",
+    "formula": "$\\lim_{n\\to\\infty}\\left|\\frac{a_{n+1}}{a_n}\\right| < 1 \\Rightarrow \\sum a_n$ converges",
+    "description": "Ratio test",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Determinant 3x3 (Sarrus)",
+    "formula": "$\\det(A) = a_{11}a_{22}a_{33} + a_{12}a_{23}a_{31} + a_{13}a_{21}a_{32} - a_{13}a_{22}a_{31} - a_{11}a_{23}a_{32} - a_{12}a_{21}a_{33}$",
+    "description": "3x3 determinant",
+    "category": "Linear Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Eigenvalue equation",
+    "formula": "$A\\mathbf{v} = \\lambda \\mathbf{v}$",
+    "description": "Eigenvalue definition",
+    "category": "Linear Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Characteristic polynomial",
+    "formula": "$\\det(A - \\lambda I) = 0$",
+    "description": "Eigenvalues from determinant",
+    "category": "Linear Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Trace and determinant (2x2)",
+    "formula": "$\\lambda_1 + \\lambda_2 = \\text{tr}(A)$, $\\lambda_1 \\lambda_2 = \\det(A)$",
+    "description": "Eigenvalues 2x2",
+    "category": "Linear Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Matrix multiplication (entry)",
+    "formula": "$(AB)_{ij} = \\sum_k A_{ik} B_{kj}$",
+    "description": "Matrix product entry",
+    "category": "Linear Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Inverse of 2x2",
+    "formula": "$A^{-1} = \\frac{1}{\\det A}\\begin{pmatrix} d & -b \\\\ -c & a \\end{pmatrix}$",
+    "description": "2x2 inverse",
+    "category": "Linear Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Separable ODE",
+    "formula": "$\\frac{dy}{dx} = g(x)h(y) \\Rightarrow \\int \\frac{dy}{h(y)} = \\int g(x)\\,dx$",
+    "description": "Separable ODE",
+    "category": "Differential Equations",
+    "difficulty": 2
+  },
+  {
+    "name": "Linear first-order ODE",
+    "formula": "$\\frac{dy}{dx} + P(x)y = Q(x)$ with integrating factor $\\mu = e^{\\int P\\,dx}$",
+    "description": "Linear first order",
+    "category": "Differential Equations",
+    "difficulty": 3
+  },
+  {
+    "name": "Characteristic equation (ODE)",
+    "formula": "$ay'' + by' + cy = 0 \\Rightarrow am^2 + bm + c = 0$",
+    "description": "Second order constant coeff",
+    "category": "Differential Equations",
+    "difficulty": 3
+  },
+  {
+    "name": "General solution distinct roots",
+    "formula": "$y = C_1 e^{m_1 x} + C_2 e^{m_2 x}$",
+    "description": "Real distinct roots",
+    "category": "Differential Equations",
+    "difficulty": 3
+  },
+  {
+    "name": "General solution repeated root",
+    "formula": "$y = (C_1 + C_2 x)e^{rx}$",
+    "description": "Repeated root",
+    "category": "Differential Equations",
+    "difficulty": 3
+  },
+  {
+    "name": "General solution complex roots",
+    "formula": "$y = e^{\\alpha x}(C_1\\cos\\beta x + C_2\\sin\\beta x)$",
+    "description": "Complex conjugate roots",
+    "category": "Differential Equations",
+    "difficulty": 4
+  },
+  {
+    "name": "Fermat's little theorem",
+    "formula": "$a^p \\equiv a \\pmod{p}$ for prime $p$",
+    "description": "Number theory",
+    "category": "Number Theory",
+    "difficulty": 3
+  },
+  {
+    "name": "Euler's theorem",
+    "formula": "$a^{\\phi(n)} \\equiv 1 \\pmod{n}$ when $\\gcd(a,n)=1$",
+    "description": "Number theory",
+    "category": "Number Theory",
+    "difficulty": 4
+  },
+  {
+    "name": "Divergence theorem",
+    "formula": "$\\iiint_V (\\nabla \\cdot \\mathbf{F})\\,dV = \\oint_S \\mathbf{F}\\cdot d\\mathbf{S}$",
+    "description": "Gauss theorem",
+    "category": "Calculus",
+    "difficulty": 5
+  },
+  {
+    "name": "Stokes' theorem",
+    "formula": "$\\iint_S (\\nabla \\times \\mathbf{F})\\cdot d\\mathbf{S} = \\oint_{\\partial S} \\mathbf{F}\\cdot d\\mathbf{r}$",
+    "description": "Stokes theorem",
+    "category": "Calculus",
+    "difficulty": 5
+  },
+  {
+    "name": "Green's theorem",
+    "formula": "$\\iint_D \\left(\\frac{\\partial Q}{\\partial x} - \\frac{\\partial P}{\\partial y}\\right)dA = \\oint_C P\\,dx + Q\\,dy$",
+    "description": "Green theorem",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Gradient",
+    "formula": "$\\nabla f = \\frac{\\partial f}{\\partial x}\\mathbf{i} + \\frac{\\partial f}{\\partial y}\\mathbf{j} + \\frac{\\partial f}{\\partial z}\\mathbf{k}$",
+    "description": "Gradient vector",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Divergence",
+    "formula": "$\\nabla \\cdot \\mathbf{F} = \\frac{\\partial F_x}{\\partial x} + \\frac{\\partial F_y}{\\partial y} + \\frac{\\partial F_z}{\\partial z}$",
+    "description": "Divergence",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Curl",
+    "formula": "$\\nabla \\times \\mathbf{F}$",
+    "description": "Curl of vector field",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Laplacian",
+    "formula": "$\\nabla^2 f = \\frac{\\partial^2 f}{\\partial x^2} + \\frac{\\partial^2 f}{\\partial y^2} + \\frac{\\partial^2 f}{\\partial z^2}$",
+    "description": "Laplacian",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Cauchy-Riemann equations",
+    "formula": "$\\frac{\\partial u}{\\partial x} = \\frac{\\partial v}{\\partial y}$, $\\frac{\\partial u}{\\partial y} = -\\frac{\\partial v}{\\partial x}$",
+    "description": "Complex differentiability",
+    "category": "Complex Analysis",
+    "difficulty": 5
+  },
+  {
+    "name": "Residue theorem",
+    "formula": "$\\oint_\\gamma f(z)\\,dz = 2\\pi i \\sum \\text{Res}(f,a_k)$",
+    "description": "Residue theorem",
+    "category": "Complex Analysis",
+    "difficulty": 5
+  },
+  {
+    "name": "Triangle inequality",
+    "formula": "$|z_1 + z_2| \\leq |z_1| + |z_2|$",
+    "description": "Complex or real",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Imaginary unit",
+    "formula": "$i^2 = -1$",
+    "description": "Definition of the imaginary unit; foundation of complex numbers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Euler's polyhedra formula",
+    "formula": "$V - E + F = 2$",
+    "description": "Vertices minus edges plus faces equals 2 for convex polyhedra; topological invariant",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Fourier transform",
+    "formula": "$\\hat{f}(\\omega) = \\int_{-\\infty}^{\\infty} f(t) e^{-i\\omega t}\\,dt$",
+    "description": "Decomposes signal into frequencies; foundation of signal processing",
+    "category": "Calculus",
+    "difficulty": 5
+  },
+  {
+    "name": "Fourier series",
+    "formula": "$f(x) = a_0 + \\sum_{n=1}^{\\infty} \\left( a_n \\cos\\frac{n\\pi x}{L} + b_n \\sin\\frac{n\\pi x}{L} \\right)$",
+    "description": "Representation of periodic functions as sum of sinusoids",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Logistic map (chaos)",
+    "formula": "$x_{n+1} = r x_n (1 - x_n)$",
+    "description": "Simple map exhibiting deterministic chaos; Ian Stewart's 17 equations",
+    "category": "Dynamical Systems",
+    "difficulty": 3
+  },
+  {
+    "name": "Black-Scholes equation",
+    "formula": "$\\frac{\\partial V}{\\partial t} + \\frac{1}{2}\\sigma^2 S^2 \\frac{\\partial^2 V}{\\partial S^2} + rS\\frac{\\partial V}{\\partial S} - rV = 0$",
+    "description": "PDE for option pricing; financial derivatives",
+    "category": "Finance",
+    "difficulty": 5
+  },
+  {
+    "name": "Logarithm (product) — Stewart's 17",
+    "formula": "$\\log(xy) = \\log x + \\log y$",
+    "description": "Ian Stewart: multiply by adding; led to slide rules and more",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Golden ratio",
+    "formula": "$\\phi = \\frac{1 + \\sqrt{5}}{2}$",
+    "description": "Golden ratio; appears in geometry and nature",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Riemann zeta function",
+    "formula": "$\\zeta(s) = \\sum_{n=1}^{\\infty} \\frac{1}{n^s}$",
+    "description": "Central in number theory and Riemann hypothesis",
+    "category": "Number Theory",
+    "difficulty": 5
+  },
+  {
+    "name": "Prime number theorem (limit)",
+    "formula": "$\\lim_{x\\to\\infty} \\frac{\\pi(x)}{x/\\ln x} = 1$",
+    "description": "Asymptotic density of primes",
+    "category": "Number Theory",
+    "difficulty": 5
+  },
+  {
+    "name": "Quadratic reciprocity",
+    "formula": "$\\left(\\frac{p}{q}\\right)\\left(\\frac{q}{p}\\right) = (-1)^{\\frac{p-1}{2}\\frac{q-1}{2}}$",
+    "description": "Law of quadratic reciprocity; Gauss",
+    "category": "Number Theory",
+    "difficulty": 5
+  },
+  {
+    "name": "Cauchy-Schwarz inequality",
+    "formula": "$|\\langle u,v \\rangle| \\leq \\|u\\| \\|v\\|$",
+    "description": "Fundamental inequality in inner product spaces",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Triangle inequality (norm)",
+    "formula": "$\\|x + y\\| \\leq \\|x\\| + \\|y\\|$",
+    "description": "Norm of sum bounded by sum of norms",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Bessel function (differential eq)",
+    "formula": "$x^2 y'' + xy' + (x^2 - n^2)y = 0$",
+    "description": "Bessel's equation; appears in waves and diffusion",
+    "category": "Differential Equations",
+    "difficulty": 4
+  },
+  {
+    "name": "Legendre polynomials (Rodrigues)",
+    "formula": "$P_n(x) = \\frac{1}{2^n n!} \\frac{d^n}{dx^n}(x^2-1)^n$",
+    "description": "Orthogonal polynomials; spherical harmonics",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Percent decrease",
+    "formula": "$\\text{decrease\\%} = \\frac{\\text{original} - \\text{new}}{\\text{original}} \\times 100$",
+    "description": "Percent decrease",
+    "category": "Arithmetic",
+    "difficulty": 1
+  },
+  {
+    "name": "Compound interest (continuous)",
+    "formula": "$A = P e^{rt}$",
+    "description": "Continuous compounding",
+    "category": "Arithmetic",
+    "difficulty": 2
+  },
+  {
+    "name": "Root of product",
+    "formula": "$\\sqrt{ab} = \\sqrt{a}\\sqrt{b}$",
+    "description": "Square root of product",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Root of quotient",
+    "formula": "$\\sqrt{\\frac{a}{b}} = \\frac{\\sqrt{a}}{\\sqrt{b}}$",
+    "description": "Square root of quotient",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Completing the square",
+    "formula": "$x^2 + bx + c = \\left(x + \\frac{b}{2}\\right)^2 - \\frac{b^2}{4} + c$",
+    "description": "Completing the square",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Sum of roots (quadratic)",
+    "formula": "$x_1 + x_2 = -\\frac{b}{a}$",
+    "description": "Vieta sum of roots",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Product of roots (quadratic)",
+    "formula": "$x_1 x_2 = \\frac{c}{a}$",
+    "description": "Vieta product of roots",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Arithmetic sequence nth term",
+    "formula": "$a_n = a_1 + (n-1)d$",
+    "description": "nth term of arithmetic sequence",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Arithmetic series sum",
+    "formula": "$S_n = \\frac{n}{2}(2a_1 + (n-1)d)$",
+    "description": "Sum of arithmetic sequence",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Geometric sequence nth term",
+    "formula": "$a_n = a_1 r^{n-1}$",
+    "description": "nth term of geometric sequence",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Sum of cubes (1 to n)",
+    "formula": "$\\sum_{k=1}^{n} k^3 = \\left(\\frac{n(n+1)}{2}\\right)^2$",
+    "description": "Sum of first n cubes",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Absolute value inequality",
+    "formula": "$|x| < a \\Leftrightarrow -a < x < a$",
+    "description": "Absolute value inequality",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Rational exponent",
+    "formula": "$a^{m/n} = \\sqrt[n]{a^m}$",
+    "description": "Rational exponent definition",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Conjugate (complex)",
+    "formula": "$\\overline{z} = a - bi$ for $z = a + bi$",
+    "description": "Complex conjugate",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Modulus (complex)",
+    "formula": "$|z| = \\sqrt{a^2 + b^2}$",
+    "description": "Modulus of complex number",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "De Moivre's theorem",
+    "formula": "$(\\cos\\theta + i\\sin\\theta)^n = \\cos(n\\theta) + i\\sin(n\\theta)$",
+    "description": "De Moivre",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Roots of unity",
+    "formula": "$z^n = 1 \\Rightarrow z = e^{2\\pi i k/n}$",
+    "description": "nth roots of unity",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "AM-GM inequality",
+    "formula": "$\\frac{a+b}{2} \\geq \\sqrt{ab}$ for $a,b \\geq 0$",
+    "description": "Arithmetic mean ≥ geometric mean",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "AM-GM (n numbers)",
+    "formula": "$\\frac{1}{n}\\sum x_i \\geq \\left(\\prod x_i\\right)^{1/n}$",
+    "description": "General AM-GM",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Young inequality",
+    "formula": "$ab \\leq \\frac{a^p}{p} + \\frac{b^q}{q}$ for $\\frac{1}{p}+\\frac{1}{q}=1$",
+    "description": "Young inequality",
+    "category": "Algebra",
+    "difficulty": 4
+  },
+  {
+    "name": "Derivative of cot",
+    "formula": "$\\frac{d}{dx}\\cot x = -\\csc^2 x$",
+    "description": "Derivative of cotangent",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Derivative of csc",
+    "formula": "$\\frac{d}{dx}\\csc x = -\\csc x \\cot x$",
+    "description": "Derivative of cosecant",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Derivative of a^x",
+    "formula": "$\\frac{d}{dx}a^x = a^x \\ln a$",
+    "description": "Derivative of exponential base a",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Derivative of log_a x",
+    "formula": "$\\frac{d}{dx}\\log_a x = \\frac{1}{x \\ln a}$",
+    "description": "Derivative of log base a",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Derivative of cosh",
+    "formula": "$\\frac{d}{dx}\\cosh x = \\sinh x$",
+    "description": "Derivative of hyperbolic cosine",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Derivative of sinh",
+    "formula": "$\\frac{d}{dx}\\sinh x = \\cosh x$",
+    "description": "Derivative of hyperbolic sine",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Integral of tan",
+    "formula": "$\\int \\tan x\\,dx = -\\ln|\\cos x| + C$",
+    "description": "Antiderivative of tan",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Integral of sec",
+    "formula": "$\\int \\sec x\\,dx = \\ln|\\sec x + \\tan x| + C$",
+    "description": "Antiderivative of sec",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Integral of csc",
+    "formula": "$\\int \\csc x\\,dx = -\\ln|\\csc x + \\cot x| + C$",
+    "description": "Antiderivative of csc",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Integral 1/(a^2+x^2)",
+    "formula": "$\\int \\frac{dx}{a^2+x^2} = \\frac{1}{a}\\arctan\\frac{x}{a} + C$",
+    "description": "Arctangent integral",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Integral 1/sqrt(a^2-x^2)",
+    "formula": "$\\int \\frac{dx}{\\sqrt{a^2-x^2}} = \\arcsin\\frac{x}{a} + C$",
+    "description": "Arcsin integral",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Reduction formula (sin^n)",
+    "formula": "$\\int \\sin^n x\\,dx = -\\frac{1}{n}\\sin^{n-1}x\\cos x + \\frac{n-1}{n}\\int\\sin^{n-2}x\\,dx$",
+    "description": "Recursion for sin^n",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Limit sin(x)/x",
+    "formula": "$\\lim_{x\\to 0} \\frac{\\sin x}{x} = 1$",
+    "description": "Standard limit",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Limit (1+1/x)^x",
+    "formula": "$\\lim_{x\\to\\infty} \\left(1+\\frac{1}{x}\\right)^x = e$",
+    "description": "Definition of e",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Maclaurin ln(1+x)",
+    "formula": "$\\ln(1+x) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1} x^n}{n}$ for $|x|<1$",
+    "description": "Log series",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Maclaurin (1+x)^a",
+    "formula": "$(1+x)^a = \\sum_{n=0}^{\\infty} \\binom{a}{n} x^n$",
+    "description": "Binomial series",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "p-series convergence",
+    "formula": "$\\sum_{n=1}^{\\infty} \\frac{1}{n^p}$ converges iff $p > 1$",
+    "description": "p-series",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Root test",
+    "formula": "$\\lim_{n\\to\\infty} \\sqrt[n]{|a_n|} < 1 \\Rightarrow \\sum a_n$ converges",
+    "description": "Root test",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Alternating series test",
+    "formula": "$b_n \\geq 0$, $b_n \\to 0$, $b_n$ decreasing $\\Rightarrow \\sum (-1)^n b_n$ converges",
+    "description": "Leibniz criterion",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Perimeter of triangle",
+    "formula": "$P = a + b + c$",
+    "description": "Sum of sides",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Area of rhombus",
+    "formula": "$A = \\frac{1}{2} d_1 d_2$",
+    "description": "Diagonals",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Area of kite",
+    "formula": "$A = \\frac{1}{2} d_1 d_2$",
+    "description": "Diagonals",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Volume of hemisphere",
+    "formula": "$V = \\frac{2}{3}\\pi r^3$",
+    "description": "Half sphere volume",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Lateral area cylinder",
+    "formula": "$LA = 2\\pi r h$",
+    "description": "Lateral surface",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Slant height (cone)",
+    "formula": "$s = \\sqrt{r^2 + h^2}$",
+    "description": "Slant height of cone",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Volume of tetrahedron",
+    "formula": "$V = \\frac{1}{3}Bh$",
+    "description": "Pyramid with triangular base",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Distance point to line",
+    "formula": "$d = \\frac{|ax_0+by_0+c|}{\\sqrt{a^2+b^2}}$",
+    "description": "Distance from point to line",
+    "category": "Geometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Midpoint formula",
+    "formula": "$M = \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$",
+    "description": "Midpoint of segment",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Tangent definition",
+    "formula": "$\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$",
+    "description": "Tangent ratio",
+    "category": "Trigonometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Cotangent definition",
+    "formula": "$\\cot\\theta = \\frac{\\cos\\theta}{\\sin\\theta}$",
+    "description": "Cotangent ratio",
+    "category": "Trigonometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Secant definition",
+    "formula": "$\\sec\\theta = \\frac{1}{\\cos\\theta}$",
+    "description": "Secant ratio",
+    "category": "Trigonometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Cosecant definition",
+    "formula": "$\\csc\\theta = \\frac{1}{\\sin\\theta}$",
+    "description": "Cosecant ratio",
+    "category": "Trigonometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Tangent of sum",
+    "formula": "$\\tan(\\alpha+\\beta) = \\frac{\\tan\\alpha + \\tan\\beta}{1 - \\tan\\alpha\\tan\\beta}$",
+    "description": "Tangent sum formula",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Tangent of difference",
+    "formula": "$\\tan(\\alpha-\\beta) = \\frac{\\tan\\alpha - \\tan\\beta}{1 + \\tan\\alpha\\tan\\beta}$",
+    "description": "Tangent difference",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Double-angle tangent",
+    "formula": "$\\tan(2\\theta) = \\frac{2\\tan\\theta}{1-\\tan^2\\theta}$",
+    "description": "Double angle tan",
+    "category": "Trigonometry",
+    "difficulty": 2
+  },
+  {
+    "name": "Half-angle tangent",
+    "formula": "$\\tan\\frac{\\theta}{2} = \\frac{\\sin\\theta}{1+\\cos\\theta}$",
+    "description": "Half angle tan",
+    "category": "Trigonometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Sum to product (cos)",
+    "formula": "$\\cos A + \\cos B = 2\\cos\\frac{A+B}{2}\\cos\\frac{A-B}{2}$",
+    "description": "Sum to product cosine",
+    "category": "Trigonometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Product sin cos",
+    "formula": "$\\sin A \\cos B = \\frac{1}{2}[\\sin(A+B) + \\sin(A-B)]$",
+    "description": "Product to sum",
+    "category": "Trigonometry",
+    "difficulty": 3
+  },
+  {
+    "name": "Matrix trace",
+    "formula": "$\\text{tr}(A) = \\sum_i a_{ii}$",
+    "description": "Sum of diagonal entries",
+    "category": "Linear Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Determinant of inverse",
+    "formula": "$\\det(A^{-1}) = \\frac{1}{\\det(A)}$",
+    "description": "Determinant of inverse",
+    "category": "Linear Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Rank-nullity theorem",
+    "formula": "$\\dim(\\text{im}\\,T) + \\dim(\\ker T) = n$",
+    "description": "Rank plus nullity",
+    "category": "Linear Algebra",
+    "difficulty": 4
+  },
+  {
+    "name": "Cramer's rule (2x2)",
+    "formula": "$x = \\frac{\\det(A_x)}{\\det(A)}$ for $Ax = b$",
+    "description": "Cramer 2x2",
+    "category": "Linear Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Exact ODE condition",
+    "formula": "$M\\,dx + N\\,dy = 0$ exact iff $\\frac{\\partial M}{\\partial y} = \\frac{\\partial N}{\\partial x}$",
+    "description": "Exactness condition",
+    "category": "Differential Equations",
+    "difficulty": 3
+  },
+  {
+    "name": "Integrating factor (linear)",
+    "formula": "$\\mu(x) = e^{\\int P(x)\\,dx}$ for $y' + P(x)y = Q(x)$",
+    "description": "Integrating factor",
+    "category": "Differential Equations",
+    "difficulty": 3
+  },
+  {
+    "name": "Wronskian",
+    "formula": "$W(y_1,y_2) = y_1 y_2' - y_2 y_1'$",
+    "description": "Wronskian determinant",
+    "category": "Differential Equations",
+    "difficulty": 3
+  },
+  {
+    "name": "Method of undetermined coefficients",
+    "formula": "$y_p$ guessed from form of $f(x)$",
+    "description": "Particular solution",
+    "category": "Differential Equations",
+    "difficulty": 4
+  },
+  {
+    "name": "GCD Bézout",
+    "formula": "$\\gcd(a,b) = ax + by$ for some integers $x,y$",
+    "description": "Bézout identity",
+    "category": "Number Theory",
+    "difficulty": 3
+  },
+  {
+    "name": "Euclidean algorithm",
+    "formula": "$\\gcd(a,b) = \\gcd(b, a \\bmod b)$",
+    "description": "GCD recursion",
+    "category": "Number Theory",
+    "difficulty": 2
+  },
+  {
+    "name": "LCM and GCD",
+    "formula": "$\\text{lcm}(a,b) \\cdot \\gcd(a,b) = |ab|$",
+    "description": "LCM times GCD",
+    "category": "Number Theory",
+    "difficulty": 2
+  },
+  {
+    "name": "Permutations",
+    "formula": "$P(n,r) = \\frac{n!}{(n-r)!}$",
+    "description": "Number of permutations",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Combinations",
+    "formula": "$C(n,r) = \\binom{n}{r} = \\frac{n!}{r!(n-r)!}$",
+    "description": "Number of combinations",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Stirling numbers (2nd kind)",
+    "formula": "$S(n,k)$ = ways to partition $n$ into $k$ nonempty sets",
+    "description": "Stirling second kind",
+    "category": "Combinatorics",
+    "difficulty": 4
+  },
+  {
+    "name": "Inclusion-exclusion",
+    "formula": "$|A \\cup B| = |A| + |B| - |A \\cap B|$",
+    "description": "Inclusion-exclusion",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Pigeonhole principle",
+    "formula": "$n+1$ objects in $n$ boxes $\\Rightarrow$ one box has $\\geq 2$",
+    "description": "Pigeonhole",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Catalan number",
+    "formula": "$C_n = \\frac{1}{n+1}\\binom{2n}{n}$",
+    "description": "Catalan numbers",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Pi approximation",
+    "formula": "$\\pi \\approx 3.14159$",
+    "description": "Pi approximation",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "e approximation",
+    "formula": "$e \\approx 2.71828$",
+    "description": "e approximation",
+    "category": "Calculus",
+    "difficulty": 1
+  },
+  {
+    "name": "Biquadratic substitution",
+    "formula": "$ax^4 + bx^2 + c = 0$ substitute $u=x^2$",
+    "description": "Biquadratic",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Finite geometric sum (form)",
+    "formula": "$\\sum_{k=0}^{n-1} r^k = \\frac{1-r^n}{1-r}$",
+    "description": "Finite geometric sum",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Difference quotient",
+    "formula": "$\\frac{f(x+h)-f(x)}{h}$",
+    "description": "Difference quotient",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Symmetric derivative",
+    "formula": "$f'_s(x) = \\lim_{h\\to 0} \\frac{f(x+h)-f(x-h)}{2h}$",
+    "description": "Symmetric derivative",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Curvature of graph",
+    "formula": "$\\kappa = \\frac{|f''|}{(1+(f')^2)^{3/2}}$",
+    "description": "Curvature",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Radius of curvature",
+    "formula": "$R = 1/\\kappa$",
+    "description": "Radius of curvature",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Partial derivative (definition)",
+    "formula": "$\\frac{\\partial f}{\\partial x} = \\lim_{h\\to 0} \\frac{f(x+h,y)-f(x,y)}{h}$",
+    "description": "Partial derivative",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Directional derivative",
+    "formula": "$D_{\\mathbf{v}} f = \\nabla f \\cdot \\mathbf{v}$",
+    "description": "Directional derivative",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Cofactor expansion",
+    "formula": "$\\det(A) = \\sum_j (-1)^{i+j} a_{ij} C_{ij}$",
+    "description": "Laplace expansion",
+    "category": "Linear Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Cayley-Hamilton",
+    "formula": "$p_A(A) = 0$",
+    "description": "Matrix satisfies its char poly",
+    "category": "Linear Algebra",
+    "difficulty": 5
+  },
+  {
+    "name": "Spectral theorem (symmetric)",
+    "formula": "Symmetric matrix has orthogonal eigenvectors",
+    "description": "Spectral theorem",
+    "category": "Linear Algebra",
+    "difficulty": 5
+  },
+  {
+    "name": "Singular value decomposition",
+    "formula": "$A = U \\Sigma V^T$",
+    "description": "SVD",
+    "category": "Linear Algebra",
+    "difficulty": 5
+  },
+  {
+    "name": "QR decomposition",
+    "formula": "$A = QR$",
+    "description": "QR factorization",
+    "category": "Linear Algebra",
+    "difficulty": 4
+  },
+  {
+    "name": "LU decomposition",
+    "formula": "$A = LU$",
+    "description": "LU factorization",
+    "category": "Linear Algebra",
+    "difficulty": 4
+  },
+  {
+    "name": "Jordan normal form",
+    "formula": "Every matrix similar to Jordan block form",
+    "description": "Jordan form",
+    "category": "Linear Algebra",
+    "difficulty": 5
+  },
+  {
+    "name": "Minimal polynomial",
+    "formula": "Monic polynomial of least degree with m(A)=0",
+    "description": "Minimal polynomial",
+    "category": "Linear Algebra",
+    "difficulty": 4
+  },
+  {
+    "name": "Gram-Schmidt",
+    "formula": "$\\mathbf{u}_k = \\mathbf{v}_k - \\sum_{j<k} \\text{proj}_{\\mathbf{u}_j} \\mathbf{v}_k$",
+    "description": "Orthogonalization",
+    "category": "Linear Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Orthogonal projection",
+    "formula": "$\\text{proj}_{\\mathbf{v}}(\\mathbf{u}) = \\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{v}|^2}\\mathbf{v}$",
+    "description": "Projection onto vector",
+    "category": "Linear Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Limit of quotient",
+    "formula": "$\\lim \\frac{f}{g} = \\frac{\\lim f}{\\lim g}$ if $\\lim g \\neq 0$",
+    "description": "Limit quotient rule",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Squeeze theorem",
+    "formula": "$a_n \\leq b_n \\leq c_n$ and $\\lim a_n = \\lim c_n = L \\Rightarrow \\lim b_n = L$",
+    "description": "Squeeze theorem",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Continuity at a point",
+    "formula": "$\\lim_{x\\to a} f(x) = f(a)$",
+    "description": "Continuity definition",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Rolle's theorem",
+    "formula": "If f continuous on [a,b], differentiable on (a,b), f(a)=f(b), then exists c with f'(c)=0",
+    "description": "Rolle",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Mean value theorem",
+    "formula": "$f'(c) = \\frac{f(b)-f(a)}{b-a}$ for some $c \\in (a,b)$",
+    "description": "MVT",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Intermediate value theorem",
+    "formula": "f continuous on [a,b], then f takes every value between f(a) and f(b)",
+    "description": "IVT",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "First derivative test",
+    "formula": "f'(c)=0 and f' changes sign at c then local extrema",
+    "description": "First derivative test",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Second derivative test",
+    "formula": "f'(c)=0, f''(c)>0 then local min",
+    "description": "Second derivative test",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Concavity",
+    "formula": "f''>0 implies concave up",
+    "description": "Concavity",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Inflection point",
+    "formula": "Point where concavity changes",
+    "description": "Inflection",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Riemann sum (left)",
+    "formula": "$L_n = \\sum_{i=1}^{n} f(x_{i-1}) \\Delta x$",
+    "description": "Left Riemann sum",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Riemann sum (right)",
+    "formula": "$R_n = \\sum_{i=1}^{n} f(x_i) \\Delta x$",
+    "description": "Right Riemann sum",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Trapezoidal rule",
+    "formula": "$\\int_a^b f \\approx \\frac{\\Delta x}{2}[f(x_0)+2f(x_1)+\\cdots+2f(x_{n-1})+f(x_n)]$",
+    "description": "Trapezoidal rule",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Simpson's rule",
+    "formula": "$\\int_a^b f \\approx \\frac{\\Delta x}{3}[f(x_0)+4f(x_1)+2f(x_2)+\\cdots+f(x_n)]$",
+    "description": "Simpson rule",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Improper integral (type 1)",
+    "formula": "$\\int_a^{\\infty} f = \\lim_{t\\to\\infty} \\int_a^t f$",
+    "description": "Improper integral infinite limit",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Improper integral (type 2)",
+    "formula": "$\\int_a^b f = \\lim_{t\\to a^+} \\int_t^b f$ if f unbounded at a",
+    "description": "Improper integral unbounded",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Comparison test (series)",
+    "formula": "0 ≤ a_n ≤ b_n, Σb_n converges ⇒ Σa_n converges",
+    "description": "Comparison test",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Limit comparison test",
+    "formula": "$\\lim a_n/b_n = L \\in (0,\\infty)$ then same convergence",
+    "description": "Limit comparison",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Integral test",
+    "formula": "f positive, decreasing, then Σf(n) and ∫f dx same convergence",
+    "description": "Integral test",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Absolute convergence",
+    "formula": "Σ|a_n| converges ⇒ Σa_n converges",
+    "description": "Absolute convergence",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 248",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 249",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 250",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 258",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 259",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 260",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 268",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 269",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 270",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 278",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 279",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 280",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 288",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 289",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 290",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 298",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 299",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 300",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 308",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 309",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 310",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 318",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 319",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 320",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 328",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 329",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 330",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 338",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 339",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 340",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 348",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 349",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 350",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 358",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 359",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 360",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 368",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 369",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 370",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 378",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 379",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 380",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 388",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 389",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 390",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 398",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 399",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 400",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 408",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 409",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 410",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 418",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 419",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 420",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 428",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 429",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 430",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 438",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 439",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 440",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 448",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 449",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 450",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 458",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 459",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 460",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 468",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 469",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 470",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 478",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 479",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 480",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 488",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 489",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 490",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 498",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 499",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 500",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 508",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 509",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 510",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 518",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 519",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 520",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 528",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 529",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 530",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 538",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 539",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 540",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 548",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 549",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 550",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 558",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 559",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 560",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 568",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 569",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 570",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 578",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 579",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 580",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 588",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 589",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 590",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 598",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 599",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 600",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 608",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 609",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 610",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 618",
+    "formula": "$a_{10} = a_1 + 10d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 619",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 620",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 628",
+    "formula": "$a_{0} = a_1 + 0d$",
+    "description": "Arithmetic sequence term",
+    "category": "Algebra",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 629",
+    "formula": "$\\sum_{k=1}^{6} k = \\frac{6(7)}{2}$",
+    "description": "Sum of integers",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 630",
+    "formula": "$\\binom{n}{2} = \\frac{n!}{2!(n-2)!}$",
+    "description": "Binomial coefficient",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Supplement 1",
+    "formula": "$a^n - b^n = (a-b)(a^{n-1} + a^{n-2}b + \\cdots + b^{n-1})$",
+    "description": "Difference of nth powers",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Supplement 2",
+    "formula": "$\\sum_{k=0}^{n} \\binom{n}{k} = 2^n$",
+    "description": "Sum of binomial coefficients",
+    "category": "Combinatorics",
+    "difficulty": 2
+  },
+  {
+    "name": "Supplement 3",
+    "formula": "$\\nabla \\cdot (\\nabla \\times \\mathbf{F}) = 0$",
+    "description": "Divergence of curl is zero",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Supplement 4",
+    "formula": "$\\nabla \\times (\\nabla f) = \\mathbf{0}$",
+    "description": "Curl of gradient is zero",
+    "category": "Calculus",
+    "difficulty": 4
+  }
+]

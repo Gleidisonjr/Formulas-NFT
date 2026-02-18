@@ -1,0 +1,2970 @@
+[
+  {
+    "name": "Mean (average)",
+    "formula": "$\\bar{x} = \\frac{1}{n}\\sum_{i=1}^{n} x_i$",
+    "description": "Arithmetic mean",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Variance",
+    "formula": "$\\sigma^2 = \\frac{1}{n}\\sum_{i=1}^{n}(x_i - \\bar{x})^2$",
+    "description": "Squared deviation from mean",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Standard deviation",
+    "formula": "$\\sigma = \\sqrt{\\frac{1}{n}\\sum_{i=1}^{n}(x_i - \\bar{x})^2}$",
+    "description": "Square root of variance",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Normal distribution PDF",
+    "formula": "$f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}$",
+    "description": "Gaussian PDF",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Bayes' theorem",
+    "formula": "$P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$",
+    "description": "Conditional probability update",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Z-score",
+    "formula": "$z = \\frac{x - \\mu}{\\sigma}$",
+    "description": "Standard score",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Correlation coefficient",
+    "formula": "$r = \\frac{\\sum(x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum(x_i-\\bar{x})^2 \\sum(y_i-\\bar{y})^2}}$",
+    "description": "Pearson correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Linear regression slope",
+    "formula": "$\\hat{\\beta}_1 = \\frac{\\sum(x_i - \\bar{x})(y_i - \\bar{y})}{\\sum(x_i - \\bar{x})^2}$",
+    "description": "Least squares slope",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Chi-squared statistic",
+    "formula": "$\\chi^2 = \\sum_{i} \\frac{(O_i - E_i)^2}{E_i}$",
+    "description": "Goodness of fit",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Standard error of the mean",
+    "formula": "$SE_{\\bar{x}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SD of sample mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Addition rule probability",
+    "formula": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B)$",
+    "description": "Union of events",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Multiplication rule probability",
+    "formula": "$P(A \\cap B) = P(A) \\cdot P(B|A)$",
+    "description": "Joint probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Complement rule",
+    "formula": "$P(A') = 1 - P(A)$",
+    "description": "Probability of complement",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Binomial PMF",
+    "formula": "$P(X=k) = \\binom{n}{k} p^k (1-p)^{n-k}$",
+    "description": "Binomial distribution",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Poisson PMF",
+    "formula": "$P(X=k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$",
+    "description": "Poisson distribution",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Confidence interval form",
+    "formula": "$\\text{statistic} \\pm (\\text{critical value}) \\times (\\text{SE})$",
+    "description": "General CI",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Sample variance (unbiased)",
+    "formula": "$s^2 = \\frac{1}{n-1}\\sum_{i=1}^{n}(x_i - \\bar{x})^2$",
+    "description": "Bessel correction",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Regression line",
+    "formula": "$\\hat{y} = \\beta_0 + \\beta_1 x$",
+    "description": "Simple linear regression",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Coefficient of determination",
+    "formula": "$R^2 = 1 - \\frac{SS_{res}}{SS_{tot}}$",
+    "description": "Variance explained",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Standard error proportion",
+    "formula": "$SE_{\\hat{p}} = \\sqrt{\\frac{p(1-p)}{n}}$",
+    "description": "SE of sample proportion",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "t-statistic",
+    "formula": "$t = \\frac{\\bar{x} - \\mu_0}{s/\\sqrt{n}}$",
+    "description": "One-sample t-test",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Two-sample t-test",
+    "formula": "$t = \\frac{\\bar{x}_1 - \\bar{x}_2}{\\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}}$",
+    "description": "Compare two means",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "F-distribution (ANOVA)",
+    "formula": "$F = \\frac{MS_{between}}{MS_{within}}$",
+    "description": "Variance ratio",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Exponential distribution PDF",
+    "formula": "$f(x) = \\lambda e^{-\\lambda x}$ for $x \\geq 0$",
+    "description": "Exponential PDF",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Expected value",
+    "formula": "$E[X] = \\sum x \\cdot P(X=x)$",
+    "description": "Mean of discrete RV",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Variance of RV",
+    "formula": "$\\text{Var}(X) = E[X^2] - (E[X])^2$",
+    "description": "Variance definition",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Poisson probability",
+    "formula": "$P(k) = \\frac{\\lambda^k e^{-\\lambda}}{k!}$",
+    "description": "Poisson distribution",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Normal CDF (standard)",
+    "formula": "$\\Phi(z) = P(Z \\leq z)$",
+    "description": "Standard normal CDF",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Margin of error",
+    "formula": "$ME = z^* \\cdot SE$",
+    "description": "CI half-width",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Type I error rate",
+    "formula": "$\\alpha = P(\\text{reject } H_0 | H_0 \\text{ true})$",
+    "description": "Significance level",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Type II error rate",
+    "formula": "$\\beta = P(\\text{fail to reject } H_0 | H_1 \\text{ true})$",
+    "description": "False negative rate",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Power of test",
+    "formula": "$\\text{Power} = 1 - \\beta$",
+    "description": "Probability to reject when false",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Median position",
+    "formula": "$\\text{median position} = \\frac{n+1}{2}$",
+    "description": "Position of median",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "IQR",
+    "formula": "$\\text{IQR} = Q_3 - Q_1$",
+    "description": "Interquartile range",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Skewness (sample)",
+    "formula": "$g_1 = \\frac{m_3}{m_2^{3/2}}$",
+    "description": "Third moment skewness",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Conditional probability",
+    "formula": "$P(A|B) = \\frac{P(A \\cap B)}{P(B)}$",
+    "description": "Probability of A given B",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Independence",
+    "formula": "$P(A \\cap B) = P(A)P(B)$",
+    "description": "Independent events",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Law of total probability",
+    "formula": "$P(A) = \\sum_i P(A|B_i)P(B_i)$",
+    "description": "Total probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Geometric distribution PMF",
+    "formula": "$P(X=k) = (1-p)^{k-1} p$",
+    "description": "Trials until first success",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Geometric mean (expected value)",
+    "formula": "$E[X] = \\frac{1}{p}$",
+    "description": "Mean geometric",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Negative binomial PMF",
+    "formula": "$P(X=k) = \\binom{k-1}{r-1} p^r (1-p)^{k-r}$",
+    "description": "r-th success",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Uniform distribution (continuous)",
+    "formula": "$f(x) = \\frac{1}{b-a}$ for $a \\leq x \\leq b$",
+    "description": "Uniform PDF",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Uniform mean and variance",
+    "formula": "$E[X] = \\frac{a+b}{2}$, $\\text{Var}(X) = \\frac{(b-a)^2}{12}$",
+    "description": "Uniform moments",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Gamma distribution PDF",
+    "formula": "$f(x) = \\frac{\\lambda^r x^{r-1} e^{-\\lambda x}}{\\Gamma(r)}$ for $x>0$",
+    "description": "Gamma PDF",
+    "category": "Probability",
+    "difficulty": 4
+  },
+  {
+    "name": "Beta distribution PDF",
+    "formula": "$f(x) = \\frac{x^{\\alpha-1}(1-x)^{\\beta-1}}{B(\\alpha,\\beta)}$",
+    "description": "Beta PDF",
+    "category": "Probability",
+    "difficulty": 4
+  },
+  {
+    "name": "Central limit theorem",
+    "formula": "$\\bar{X} \\stackrel{d}{\\to} N(\\mu, \\sigma^2/n)$ as $n\\to\\infty$",
+    "description": "CLT",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Slutsky's theorem",
+    "formula": "$X_n \\to X$, $Y_n \\to c \\Rightarrow X_n Y_n \\to cX$",
+    "description": "Convergence",
+    "category": "Inference",
+    "difficulty": 5
+  },
+  {
+    "name": "Likelihood function",
+    "formula": "$L(\\theta | x) = f(x|\\theta)$",
+    "description": "Likelihood",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "MLE (score equation)",
+    "formula": "$\\frac{\\partial \\ell}{\\partial \\theta} = 0$",
+    "description": "Max likelihood estimate",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Fisher information",
+    "formula": "$I(\\theta) = -E\\left[\\frac{\\partial^2 \\ell}{\\partial \\theta^2}\\right]$",
+    "description": "Fisher information",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Cramér-Rao lower bound",
+    "formula": "$\\text{Var}(\\hat{\\theta}) \\geq \\frac{1}{I(\\theta)}$",
+    "description": "CRLB",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Wilcoxon rank-sum test",
+    "formula": "$W = \\sum \\text{ranks}$ (one sample)",
+    "description": "Nonparametric",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Kruskal-Wallis H",
+    "formula": "$H = \\frac{12}{N(N+1)}\\sum \\frac{R_i^2}{n_i} - 3(N+1)$",
+    "description": "Nonparametric ANOVA",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Spearman correlation",
+    "formula": "$\\rho = 1 - \\frac{6\\sum d_i^2}{n(n^2-1)}$",
+    "description": "Rank correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Covariance",
+    "formula": "$\\text{Cov}(X,Y) = E[(X-\\mu_X)(Y-\\mu_Y)]$",
+    "description": "Covariance definition",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Correlation from covariance",
+    "formula": "$\\rho_{XY} = \\frac{\\text{Cov}(X,Y)}{\\sigma_X \\sigma_Y}$",
+    "description": "Correlation coefficient",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Multiple regression",
+    "formula": "$\\hat{y} = \\beta_0 + \\beta_1 x_1 + \\cdots + \\beta_p x_p$",
+    "description": "Multiple linear regression",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Residual sum of squares",
+    "formula": "$SS_{res} = \\sum (y_i - \\hat{y}_i)^2$",
+    "description": "RSS",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Total sum of squares",
+    "formula": "$SS_{tot} = \\sum (y_i - \\bar{y})^2$",
+    "description": "SST",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Adjusted R-squared",
+    "formula": "$R^2_{adj} = 1 - \\frac{SS_{res}/(n-p-1)}{SS_{tot}/(n-1)}$",
+    "description": "Adjusted R²",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Standard error of slope",
+    "formula": "$SE_{\\hat{\\beta}_1} = \\frac{s}{\\sqrt{\\sum(x_i-\\bar{x})^2}}$",
+    "description": "SE of slope",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "ANOVA F-test (regression)",
+    "formula": "$F = \\frac{MS_{reg}}{MS_{res}}$",
+    "description": "Regression F-test",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Durbin-Watson statistic",
+    "formula": "$d = \\frac{\\sum(e_t - e_{t-1})^2}{\\sum e_t^2}$",
+    "description": "Autocorrelation",
+    "category": "Regression",
+    "difficulty": 4
+  },
+  {
+    "name": "Logistic regression",
+    "formula": "$P(Y=1|X) = \\frac{1}{1 + e^{-(\\beta_0 + \\beta_1 x)}}$",
+    "description": "Logistic model",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Odds ratio",
+    "formula": "$\\text{OR} = \\frac{p/(1-p)}{q/(1-q)}$",
+    "description": "Odds ratio",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Sensitivity",
+    "formula": "$\\text{Sensitivity} = \\frac{TP}{TP+FN}$",
+    "description": "True positive rate",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Specificity",
+    "formula": "$\\text{Specificity} = \\frac{TN}{TN+FP}$",
+    "description": "True negative rate",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Precision",
+    "formula": "$\\text{Precision} = \\frac{TP}{TP+FP}$",
+    "description": "Positive predictive",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "F1 score",
+    "formula": "$F_1 = 2 \\frac{\\text{Precision} \\cdot \\text{Recall}}{\\text{Precision} + \\text{Recall}}$",
+    "description": "F1 score",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Standard error of difference (proportions)",
+    "formula": "$SE = \\sqrt{\\frac{p_1(1-p_1)}{n_1} + \\frac{p_2(1-p_2)}{n_2}}$",
+    "description": "Two proportion SE",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Pooled proportion",
+    "formula": "$\\hat{p}_{pool} = \\frac{x_1 + x_2}{n_1 + n_2}$",
+    "description": "Pooled p",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Chi-square test (independence)",
+    "formula": "$\\chi^2 = \\sum \\frac{(O - E)^2}{E}$",
+    "description": "Independence test",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Degrees of freedom (chi-square)",
+    "formula": "$df = (r-1)(c-1)$",
+    "description": "Chi-square df",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Bonferroni correction",
+    "formula": "$\\alpha_{new} = \\alpha / k$",
+    "description": "Multiple comparisons",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Chebyshev inequality",
+    "formula": "$P(|X-\\mu| \\geq k\\sigma) \\leq \\frac{1}{k^2}$",
+    "description": "Chebyshev",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Markov inequality",
+    "formula": "$P(X \\geq a) \\leq \\frac{E[X]}{a}$ for $X \\geq 0$",
+    "description": "Markov",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Jensen inequality",
+    "formula": "$E[g(X)] \\geq g(E[X])$ for convex g",
+    "description": "Jensen",
+    "category": "Probability",
+    "difficulty": 4
+  },
+  {
+    "name": "Law of large numbers",
+    "formula": "$\\bar{X}_n \\stackrel{P}{\\to} \\mu$ as $n\\to\\infty$",
+    "description": "LLN",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Moment generating function",
+    "formula": "$M_X(t) = E[e^{tX}]$",
+    "description": "MGF",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Convolution (sum of RVs)",
+    "formula": "$f_{X+Y}(z) = \\int f_X(x) f_Y(z-x)\\,dx$",
+    "description": "Sum of independent",
+    "category": "Probability",
+    "difficulty": 4
+  },
+  {
+    "name": "Bias of estimator",
+    "formula": "$\\text{Bias}(\\hat{\\theta}) = E[\\hat{\\theta}] - \\theta$",
+    "description": "Bias definition",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "MSE of estimator",
+    "formula": "$\\text{MSE} = \\text{Var}(\\hat{\\theta}) + \\text{Bias}^2$",
+    "description": "Mean squared error",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Consistent estimator",
+    "formula": "$\\hat{\\theta}_n \\stackrel{P}{\\to} \\theta$",
+    "description": "Consistency",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Asymptotic normality",
+    "formula": "$\\sqrt{n}(\\hat{\\theta} - \\theta) \\stackrel{d}{\\to} N(0, \\sigma^2)$",
+    "description": "Asymptotic normal",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Sample proportion",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Standard error (difference of means)",
+    "formula": "$SE = \\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}$",
+    "description": "Two-sample SE",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Paired t-test statistic",
+    "formula": "$t = \\frac{\\bar{d}}{s_d/\\sqrt{n}}$",
+    "description": "Paired comparison",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Effect size (Cohen d)",
+    "formula": "$d = \\frac{\\bar{x}_1 - \\bar{x}_2}{s_{pooled}}$",
+    "description": "Cohen d",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Kurtosis",
+    "formula": "$\\kappa = \\frac{\\mu_4}{\\sigma^4} - 3$",
+    "description": "Excess kurtosis",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Sample covariance",
+    "formula": "$s_{xy} = \\frac{1}{n-1}\\sum (x_i - \\bar{x})(y_i - \\bar{y})$",
+    "description": "Sample covariance",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Partial correlation",
+    "formula": "$r_{12|3} = \\frac{r_{12} - r_{13}r_{23}}{\\sqrt{(1-r_{13}^2)(1-r_{23}^2)}$",
+    "description": "Partial correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Time series (AR(1))",
+    "formula": "$X_t = \\phi X_{t-1} + \\epsilon_t$",
+    "description": "Autoregressive order 1",
+    "category": "Time Series",
+    "difficulty": 3
+  },
+  {
+    "name": "Moving average MA(1)",
+    "formula": "$X_t = \\epsilon_t + \\theta \\epsilon_{t-1}$",
+    "description": "MA(1)",
+    "category": "Time Series",
+    "difficulty": 3
+  },
+  {
+    "name": "Exponential smoothing",
+    "formula": "$\\hat{y}_t = \\alpha y_t + (1-\\alpha)\\hat{y}_{t-1}$",
+    "description": "Exponential smoothing",
+    "category": "Time Series",
+    "difficulty": 2
+  },
+  {
+    "name": "Shannon entropy",
+    "formula": "$H(X) = -\\sum_i p(x_i) \\log p(x_i)$",
+    "description": "Information content of a random variable; foundation of information theory",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Mode",
+    "formula": "Mode = most frequent value",
+    "description": "Mode definition",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Range",
+    "formula": "$R = x_{max} - x_{min}$",
+    "description": "Range of data",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Coefficient of variation",
+    "formula": "$CV = \\frac{\\sigma}{\\mu} \\times 100\\%$",
+    "description": "Relative variability",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Standard error (two proportions)",
+    "formula": "$SE = \\sqrt{\\frac{p_1(1-p_1)}{n_1} + \\frac{p_2(1-p_2)}{n_2}}$",
+    "description": "SE difference of proportions",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Pooled variance (t-test)",
+    "formula": "$s_p^2 = \\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2}$",
+    "description": "Pooled variance",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Degrees of freedom (t)",
+    "formula": "$df = n - 1$ (one-sample)",
+    "description": "df one-sample t",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Chi-square goodness of fit df",
+    "formula": "$df = k - 1$",
+    "description": "Goodness of fit df",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "ANOVA between-group SS",
+    "formula": "$SS_{between} = \\sum n_i (\\bar{x}_i - \\bar{x})^2$",
+    "description": "Between groups sum of squares",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "ANOVA within-group SS",
+    "formula": "$SS_{within} = \\sum_i \\sum_j (x_{ij} - \\bar{x}_i)^2$",
+    "description": "Within groups sum of squares",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Kruskal-Wallis test",
+    "formula": "$H = \\frac{12}{N(N+1)} \\sum \\frac{R_i^2}{n_i} - 3(N+1)$",
+    "description": "Nonparametric ANOVA",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Mann-Whitney U",
+    "formula": "U statistic for two independent samples",
+    "description": "Mann-Whitney",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Sign test",
+    "formula": "Binomial test on signs of differences",
+    "description": "Sign test",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Simple moving average",
+    "formula": "$\\bar{x}_t = \\frac{1}{k}\\sum_{i=0}^{k-1} x_{t-i}$",
+    "description": "Moving average",
+    "category": "Time Series",
+    "difficulty": 1
+  },
+  {
+    "name": "Exponential weighted moving average",
+    "formula": "$EMA_t = \\alpha x_t + (1-\\alpha) EMA_{t-1}$",
+    "description": "EWMA",
+    "category": "Time Series",
+    "difficulty": 2
+  },
+  {
+    "name": "Autocorrelation",
+    "formula": "$\\rho_k = \\frac{\\text{Cov}(X_t, X_{t-k})}{\\sigma^2}$",
+    "description": "Autocorrelation at lag k",
+    "category": "Time Series",
+    "difficulty": 3
+  },
+  {
+    "name": "Log odds",
+    "formula": "$\\text{logit}(p) = \\ln\\frac{p}{1-p}$",
+    "description": "Logit function",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Deviance",
+    "formula": "$D = -2(\\ell(\\hat{\\theta}) - \\ell(\\theta_{sat}))$",
+    "description": "Deviance (GLM)",
+    "category": "Regression",
+    "difficulty": 4
+  },
+  {
+    "name": "AIC",
+    "formula": "$AIC = 2k - 2\\ln(\\hat{L})$",
+    "description": "Akaike information criterion",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "BIC",
+    "formula": "$BIC = k\\ln n - 2\\ln(\\hat{L})$",
+    "description": "Bayesian information criterion",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "VIF",
+    "formula": "$VIF_j = \\frac{1}{1 - R_j^2}$",
+    "description": "Variance inflation factor",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Cook's distance",
+    "formula": "$D_i = \\frac{(y_i - \\hat{y}_i)^2}{p \\cdot MSE} \\cdot \\frac{h_{ii}}{(1-h_{ii})^2}$",
+    "description": "Influence measure",
+    "category": "Regression",
+    "difficulty": 4
+  },
+  {
+    "name": "Leverage",
+    "formula": "$h_{ii}$ diagonal of hat matrix",
+    "description": "Leverage",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Multinomial coefficient",
+    "formula": "$\\binom{n}{k_1,\\ldots,k_m} = \\frac{n!}{k_1!\\cdots k_m!}$",
+    "description": "Multinomial coefficient",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Hypergeometric PMF",
+    "formula": "$P(X=k) = \\frac{\\binom{K}{k}\\binom{N-K}{n-k}}{\\binom{N}{n}}$",
+    "description": "Hypergeometric distribution",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Negative binomial (alternate)",
+    "formula": "$P(X=k) = \\binom{k+r-1}{r-1} p^r (1-p)^k$",
+    "description": "Neg binomial (failures)",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Weibull PDF",
+    "formula": "$f(x) = \\frac{k}{\\lambda}\\left(\\frac{x}{\\lambda}\\right)^{k-1} e^{-(x/\\lambda)^k}$",
+    "description": "Weibull distribution",
+    "category": "Probability",
+    "difficulty": 4
+  },
+  {
+    "name": "Lognormal",
+    "formula": "$\\ln X \\sim N(\\mu, \\sigma^2)$",
+    "description": "Lognormal distribution",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Characteristic function",
+    "formula": "$\\varphi_X(t) = E[e^{itX}]$",
+    "description": "Characteristic function",
+    "category": "Probability",
+    "difficulty": 4
+  },
+  {
+    "name": "Convolution (PDFs)",
+    "formula": "$f_{X+Y}(z) = \\int f_X(x) f_Y(z-x)\\,dx$",
+    "description": "Sum of independent RVs",
+    "category": "Probability",
+    "difficulty": 4
+  },
+  {
+    "name": "Sample mean (grouped)",
+    "formula": "$\\bar{x} = \\frac{\\sum f_i x_i}{\\sum f_i}$",
+    "description": "Mean for grouped data",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Sample variance (grouped)",
+    "formula": "$s^2 = \\frac{\\sum f_i (x_i - \\bar{x})^2}{n-1}$",
+    "description": "Variance grouped",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Z-score (sample)",
+    "formula": "$z = \\frac{x - \\bar{x}}{s}$",
+    "description": "Sample z-score",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Percentile (definition)",
+    "formula": "Value below which p% of data fall",
+    "description": "Percentile",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Quartile 1 position",
+    "formula": "$Q_1$ at $\\frac{n+1}{4}$",
+    "description": "First quartile",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Quartile 3 position",
+    "formula": "$Q_3$ at $\\frac{3(n+1)}{4}$",
+    "description": "Third quartile",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Outlier (IQR rule)",
+    "formula": "$x < Q_1 - 1.5 \\times IQR$ or $x > Q_3 + 1.5 \\times IQR$",
+    "description": "IQR outlier rule",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Standard error of median",
+    "formula": "$SE_{median} \\approx \\frac{1.253 \\sigma}{\\sqrt{n}}$",
+    "description": "SE of sample median",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Wilson score interval",
+    "formula": "$\\frac{\\hat{p} + z^2/(2n)}{1+z^2/n} \\pm \\frac{z}{1+z^2/n}\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n} + \\frac{z^2}{4n^2}}$",
+    "description": "Wilson CI for proportion",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Agresti-Coull interval",
+    "formula": "Add 2 successes and 2 failures then Wald interval",
+    "description": "Agresti-Coull",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Sample size (proportion)",
+    "formula": "$n = \\frac{z^2 p(1-p)}{E^2}$",
+    "description": "Sample size for proportion CI",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Sample size (mean)",
+    "formula": "$n = \\left(\\frac{z \\sigma}{E}\\right)^2$",
+    "description": "Sample size for mean CI",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Power (one-sample z)",
+    "formula": "Power $= P(Z > z_{\\alpha} - \\frac{\\delta\\sqrt{n}}{\\sigma})$",
+    "description": "Power for z-test",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Effect size (proportion)",
+    "formula": "$h = 2(\\arcsin\\sqrt{p_1} - \\arcsin\\sqrt{p_2})$",
+    "description": "Cohen h",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "McNemar test",
+    "formula": "$\\chi^2 = \\frac{(b-c)^2}{b+c}$",
+    "description": "Paired nominal data",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Fisher exact test",
+    "formula": "Hypergeometric for 2x2 table",
+    "description": "Fisher exact",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Kendall tau",
+    "formula": "$\\tau = \\frac{n_c - n_d}{\\binom{n}{2}}$",
+    "description": "Kendall rank correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Point-biserial correlation",
+    "formula": "$r_{pb} = \\frac{\\bar{x}_1 - \\bar{x}_0}{s_x}\\sqrt{\\frac{n_1 n_0}{n(n-1)}}$",
+    "description": "Point-biserial",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Cramér's V",
+    "formula": "$V = \\sqrt{\\frac{\\chi^2}{n \\min(r-1,c-1)}}$",
+    "description": "Effect size chi-square",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Eta squared",
+    "formula": "$\\eta^2 = \\frac{SS_{between}}{SS_{tot}}$",
+    "description": "ANOVA effect size",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Omega squared",
+    "formula": "$\\omega^2 = \\frac{SS_{between} - (k-1)MS_{within}}{SS_{tot} + MS_{within}}$",
+    "description": "Omega squared",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Residual",
+    "formula": "$e_i = y_i - \\hat{y}_i$",
+    "description": "Regression residual",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Standardized residual",
+    "formula": "$r_i = \\frac{e_i}{s\\sqrt{1-h_{ii}}}$",
+    "description": "Standardized residual",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Durbin-Watson",
+    "formula": "$d = \\frac{\\sum(e_t - e_{t-1})^2}{\\sum e_t^2}$",
+    "description": "Autocorrelation of residuals",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Breusch-Pagan test",
+    "formula": "LM test for heteroscedasticity",
+    "description": "Breusch-Pagan",
+    "category": "Regression",
+    "difficulty": 4
+  },
+  {
+    "name": "Shapiro-Wilk test",
+    "formula": "Test for normality",
+    "description": "Shapiro-Wilk",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Kolmogorov-Smirnov test",
+    "formula": "$D_n = \\sup_x |F_n(x) - F(x)|$",
+    "description": "KS test",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Anderson-Darling test",
+    "formula": "Weighted KS-type test",
+    "description": "Anderson-Darling",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Lilliefors test",
+    "formula": "KS for estimated parameters",
+    "description": "Lilliefors",
+    "category": "Inference",
+    "difficulty": 4
+  },
+  {
+    "name": "Extra formula 251",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 252",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 253",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 254",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 255",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 256",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 257",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 261",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 262",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 263",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 264",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 265",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 266",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 267",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 271",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 272",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 273",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 274",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 275",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 276",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 277",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 281",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 282",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 283",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 284",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 285",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 286",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 287",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 291",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 292",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 293",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 294",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 295",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 296",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 297",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 301",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 302",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 303",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 304",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 305",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 306",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 307",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 311",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 312",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 313",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 314",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 315",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 316",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 317",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 321",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 322",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 323",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 324",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 325",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 326",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 327",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 331",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 332",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 333",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 334",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 335",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 336",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 337",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 341",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 342",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 343",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 344",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 345",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 346",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 347",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 351",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 352",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 353",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 354",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 355",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 356",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 357",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 361",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 362",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 363",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 364",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 365",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 366",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 367",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 371",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 372",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 373",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 374",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 375",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 376",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 377",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 381",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 382",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 383",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 384",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 385",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 386",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 387",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 391",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 392",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 393",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 394",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 395",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 396",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 397",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 401",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 402",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 403",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 404",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 405",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 406",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 407",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 411",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 412",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 413",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 414",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 415",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 416",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 417",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 421",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 422",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 423",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 424",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 425",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 426",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 427",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 431",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 432",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 433",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 434",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 435",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 436",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 437",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 441",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 442",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 443",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 444",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 445",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 446",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 447",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 451",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 452",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 453",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 454",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 455",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 456",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 457",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 461",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 462",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 463",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 464",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 465",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 466",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 467",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 471",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 472",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 473",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 474",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 475",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 476",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 477",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 481",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 482",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 483",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 484",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 485",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 486",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 487",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 491",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 492",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 493",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 494",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 495",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 496",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 497",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 501",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 502",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 503",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 504",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 505",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 506",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 507",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 511",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 512",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 513",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 514",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 515",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 516",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 517",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 521",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 522",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 523",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 524",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 525",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 526",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 527",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 531",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 532",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 533",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 534",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 535",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 536",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 537",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 541",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 542",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 543",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 544",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 545",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 546",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 547",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 551",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 552",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 553",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 554",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 555",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 556",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 557",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 561",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 562",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 563",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 564",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 565",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 566",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 567",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 571",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 572",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 573",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 574",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 575",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 576",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 577",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 581",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 582",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 583",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 584",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 585",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 586",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 587",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 591",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 592",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 593",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 594",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 595",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 596",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 597",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 601",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 602",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 603",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 604",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 605",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 606",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 607",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 611",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 612",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 613",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 614",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 615",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 616",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 617",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 621",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 622",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 623",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 624",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 625",
+    "formula": "$\\hat{p} = \\frac{X}{n}$",
+    "description": "Sample proportion",
+    "category": "Descriptive",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 626",
+    "formula": "$r = \\frac{s_{xy}}{s_x s_y}$",
+    "description": "Sample correlation",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 627",
+    "formula": "$\\hat{y} = \\bar{y} + r \\frac{s_y}{s_x}(x - \\bar{x})$",
+    "description": "Regression line (alternate)",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 631",
+    "formula": "$P(A) = \\frac{|A|}{|\\Omega|}$",
+    "description": "Classical probability",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Extra formula 632",
+    "formula": "$E[X] = \\mu$",
+    "description": "Expected value of mean",
+    "category": "Probability",
+    "difficulty": 1
+  },
+  {
+    "name": "Extra formula 633",
+    "formula": "$\\text{Var}(aX+b) = a^2 \\text{Var}(X)$",
+    "description": "Variance scaling",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Extra formula 634",
+    "formula": "$\\sigma_{\\bar{X}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "SE of mean",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Supplement 5",
+    "formula": "$E[XY] = E[X]E[Y]$ for X,Y independent",
+    "description": "Expectation of product",
+    "category": "Probability",
+    "difficulty": 2
+  }
+]

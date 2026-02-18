@@ -1,0 +1,1325 @@
+[
+  {
+    "name": "Newton's second law",
+    "formula": "$F = ma$",
+    "description": "Force equals mass times acceleration",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Kinetic energy",
+    "formula": "$K = \\frac{1}{2}mv^2$",
+    "description": "Energy of motion",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Gravitational potential energy",
+    "formula": "$U = mgh$",
+    "description": "Potential energy near Earth",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Mass-energy equivalence",
+    "formula": "$E = mc^2$",
+    "description": "Special relativity",
+    "category": "Relativity",
+    "difficulty": 2
+  },
+  {
+    "name": "Ideal gas law",
+    "formula": "$PV = nRT$",
+    "description": "Pressure volume temperature",
+    "category": "Thermodynamics",
+    "difficulty": 1
+  },
+  {
+    "name": "Ohm's law",
+    "formula": "$V = IR$",
+    "description": "Voltage current resistance",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Planck-Einstein relation",
+    "formula": "$E = h\\nu$",
+    "description": "Photon energy",
+    "category": "Quantum mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Coulomb's law",
+    "formula": "$F = k \\frac{|q_1 q_2|}{r^2}$",
+    "description": "Electrostatic force",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Uncertainty principle",
+    "formula": "$\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}$",
+    "description": "Position-momentum uncertainty",
+    "category": "Quantum mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Maxwell-Faraday equation",
+    "formula": "$\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}$",
+    "description": "Induced electric field",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Schrödinger equation (time-independent)",
+    "formula": "$\\hat{H}\\psi = E\\psi$",
+    "description": "Energy eigenvalue equation",
+    "category": "Quantum mechanics",
+    "difficulty": 5
+  },
+  {
+    "name": "Newton's law of gravitation",
+    "formula": "$F = G \\frac{m_1 m_2}{r^2}$",
+    "description": "Gravitational force",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Work",
+    "formula": "$W = F \\cdot d$",
+    "description": "Work equals force times distance",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Power",
+    "formula": "$P = \\frac{W}{t} = F \\cdot v$",
+    "description": "Power as work per time",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Momentum",
+    "formula": "$p = mv$",
+    "description": "Linear momentum",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Impulse",
+    "formula": "$J = \\Delta p = F \\Delta t$",
+    "description": "Change in momentum",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Density",
+    "formula": "$\\rho = \\frac{m}{V}$",
+    "description": "Mass per volume",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Pressure",
+    "formula": "$P = \\frac{F}{A}$",
+    "description": "Force per area",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Electric field (point charge)",
+    "formula": "$E = k \\frac{|q|}{r^2}$",
+    "description": "Coulomb field",
+    "category": "Electromagnetism",
+    "difficulty": 2
+  },
+  {
+    "name": "Magnetic force on wire",
+    "formula": "$F = B I L \\sin\\theta$",
+    "description": "Force on current",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Snell's law",
+    "formula": "$n_1 \\sin\\theta_1 = n_2 \\sin\\theta_2$",
+    "description": "Refraction",
+    "category": "Optics",
+    "difficulty": 2
+  },
+  {
+    "name": "Einstein photoelectric",
+    "formula": "$E_k = h\\nu - \\phi$",
+    "description": "Photoelectron kinetic energy",
+    "category": "Quantum mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "De Broglie wavelength",
+    "formula": "$\\lambda = \\frac{h}{p}$",
+    "description": "Matter wavelength",
+    "category": "Quantum mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Reynolds number",
+    "formula": "$Re = \\frac{\\rho v L}{\\mu}$",
+    "description": "Flow regime",
+    "category": "Fluid dynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Bernoulli equation",
+    "formula": "$P + \\frac{1}{2}\\rho v^2 + \\rho g h = \\text{const}$",
+    "description": "Ideal fluid",
+    "category": "Fluid dynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Entropy change",
+    "formula": "$\\Delta S = \\int \\frac{dQ}{T}$",
+    "description": "Clausius definition",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "First law thermodynamics",
+    "formula": "$\\Delta U = Q - W$",
+    "description": "Internal energy change",
+    "category": "Thermodynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Newton's first law",
+    "formula": "$\\sum \\mathbf{F} = 0 \\Rightarrow \\mathbf{v} = \\text{const}$",
+    "description": "Equilibrium",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Newton's third law",
+    "formula": "$\\mathbf{F}_{12} = -\\mathbf{F}_{21}$",
+    "description": "Action-reaction",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Centripetal acceleration",
+    "formula": "$a_c = \\frac{v^2}{r}$",
+    "description": "Circular motion",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Angular velocity",
+    "formula": "$\\omega = \\frac{d\\theta}{dt}$",
+    "description": "Rate of angle change",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Torque",
+    "formula": "$\\tau = r F \\sin\\theta$",
+    "description": "Moment of force",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Kepler's third law",
+    "formula": "$T^2 \\propto a^3$",
+    "description": "Orbital period vs semi-major axis",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Specific heat",
+    "formula": "$Q = m c \\Delta T$",
+    "description": "Heat to change temperature",
+    "category": "Thermodynamics",
+    "difficulty": 1
+  },
+  {
+    "name": "Latent heat",
+    "formula": "$Q = m L$",
+    "description": "Phase change heat",
+    "category": "Thermodynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Wave speed",
+    "formula": "$v = f \\lambda$",
+    "description": "Frequency and wavelength",
+    "category": "Waves",
+    "difficulty": 1
+  },
+  {
+    "name": "Doppler shift (approaching)",
+    "formula": "$f' = f \\frac{v}{v - v_s}$",
+    "description": "Source approaching",
+    "category": "Waves",
+    "difficulty": 3
+  },
+  {
+    "name": "Index of refraction",
+    "formula": "$n = \\frac{c}{v}$",
+    "description": "Speed in medium",
+    "category": "Optics",
+    "difficulty": 1
+  },
+  {
+    "name": "Lens equation",
+    "formula": "$\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}$",
+    "description": "Thin lens",
+    "category": "Optics",
+    "difficulty": 2
+  },
+  {
+    "name": "Capacitance",
+    "formula": "$C = \\frac{Q}{V}$",
+    "description": "Charge per voltage",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Inductance (solenoid)",
+    "formula": "$L = \\mu_0 n^2 V$",
+    "description": "Self-inductance",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Kinematic equation (no time)",
+    "formula": "$v^2 = v_0^2 + 2a(x - x_0)$",
+    "description": "Velocity position",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Kinematic equation (position)",
+    "formula": "$x = x_0 + v_0 t + \\frac{1}{2}a t^2$",
+    "description": "Position with constant a",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Kinematic equation (velocity)",
+    "formula": "$v = v_0 + a t$",
+    "description": "Velocity with constant a",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Free fall (distance)",
+    "formula": "$y = v_0 t - \\frac{1}{2}g t^2$",
+    "description": "Vertical motion",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Friction (kinetic)",
+    "formula": "$f_k = \\mu_k N$",
+    "description": "Kinetic friction",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Friction (static max)",
+    "formula": "$f_s \\leq \\mu_s N$",
+    "description": "Static friction maximum",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Hooke's law",
+    "formula": "$F = -kx$",
+    "description": "Spring force",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Elastic potential energy",
+    "formula": "$U = \\frac{1}{2}kx^2$",
+    "description": "Spring potential",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Simple pendulum period",
+    "formula": "$T = 2\\pi\\sqrt{\\frac{L}{g}}$",
+    "description": "Period of pendulum",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Physical pendulum period",
+    "formula": "$T = 2\\pi\\sqrt{\\frac{I}{mgh}}$",
+    "description": "Period physical pendulum",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Angular momentum",
+    "formula": "$L = I\\omega$",
+    "description": "Rotational angular momentum",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Rotational kinetic energy",
+    "formula": "$K = \\frac{1}{2}I\\omega^2$",
+    "description": "Rotational KE",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Moment of inertia (point)",
+    "formula": "$I = m r^2$",
+    "description": "Point mass",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Parallel axis theorem",
+    "formula": "$I = I_{cm} + m d^2$",
+    "description": "Moment of inertia parallel axis",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Conservation of energy",
+    "formula": "$\\Delta K + \\Delta U + \\Delta E_{int} = W_{ext}$",
+    "description": "Energy conservation",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Conservation of momentum",
+    "formula": "$\\sum \\mathbf{p}_i = \\sum \\mathbf{p}_f$",
+    "description": "Momentum conservation",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Elastic collision (1D)",
+    "formula": "$v_1' = \\frac{m_1-m_2}{m_1+m_2}v_1 + \\frac{2m_2}{m_1+m_2}v_2$",
+    "description": "1D elastic",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Efficiency",
+    "formula": "$\\eta = \\frac{W_{out}}{W_{in}} \\times 100\\%$",
+    "description": "Efficiency",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Continuity equation",
+    "formula": "$A_1 v_1 = A_2 v_2$",
+    "description": "Incompressible flow",
+    "category": "Fluid dynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Pascal's principle",
+    "formula": "$\\Delta P$ transmitted undiminished",
+    "description": "Hydraulics",
+    "category": "Fluid dynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Archimedes' principle",
+    "formula": "$F_b = \\rho_{fluid} V_{disp} g$",
+    "description": "Buoyant force",
+    "category": "Fluid dynamics",
+    "difficulty": 1
+  },
+  {
+    "name": "Viscosity (Newtonian)",
+    "formula": "$\\tau = \\mu \\frac{dv}{dy}$",
+    "description": "Shear stress",
+    "category": "Fluid dynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Maxwell-Gauss equation",
+    "formula": "$\\nabla \\cdot \\mathbf{E} = \\frac{\\rho}{\\epsilon_0}$",
+    "description": "Gauss law electricity",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Maxwell no magnetic monopole",
+    "formula": "$\\nabla \\cdot \\mathbf{B} = 0$",
+    "description": "No magnetic monopole",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Maxwell-Ampère equation",
+    "formula": "$\\nabla \\times \\mathbf{B} = \\mu_0 \\mathbf{J} + \\mu_0\\epsilon_0 \\frac{\\partial \\mathbf{E}}{\\partial t}$",
+    "description": "Ampère-Maxwell",
+    "category": "Electromagnetism",
+    "difficulty": 5
+  },
+  {
+    "name": "Lorentz force",
+    "formula": "$\\mathbf{F} = q(\\mathbf{E} + \\mathbf{v} \\times \\mathbf{B})$",
+    "description": "Force on charged particle",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Biot-Savart law",
+    "formula": "$d\\mathbf{B} = \\frac{\\mu_0}{4\\pi}\\frac{I\\,d\\mathbf{\\ell} \\times \\hat{r}}{r^2}$",
+    "description": "Magnetic field element",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Ampère's law",
+    "formula": "$\\oint \\mathbf{B}\\cdot d\\mathbf{\\ell} = \\mu_0 I_{enc}$",
+    "description": "Ampere law integral",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Faraday's law (integral)",
+    "formula": "$\\mathcal{E} = -\\frac{d\\Phi_B}{dt}$",
+    "description": "EMF from flux change",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Magnetic flux",
+    "formula": "$\\Phi_B = \\int \\mathbf{B} \\cdot d\\mathbf{A}$",
+    "description": "Magnetic flux",
+    "category": "Electromagnetism",
+    "difficulty": 2
+  },
+  {
+    "name": "Energy in capacitor",
+    "formula": "$U = \\frac{1}{2}CV^2$",
+    "description": "Stored energy capacitor",
+    "category": "Electromagnetism",
+    "difficulty": 2
+  },
+  {
+    "name": "Energy in inductor",
+    "formula": "$U = \\frac{1}{2}LI^2$",
+    "description": "Stored energy inductor",
+    "category": "Electromagnetism",
+    "difficulty": 2
+  },
+  {
+    "name": "Resistors in series",
+    "formula": "$R_{eq} = R_1 + R_2 + \\cdots$",
+    "description": "Series resistance",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Resistors in parallel",
+    "formula": "$\\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\cdots$",
+    "description": "Parallel resistance",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Capacitors in parallel",
+    "formula": "$C_{eq} = C_1 + C_2 + \\cdots$",
+    "description": "Parallel capacitance",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Capacitors in series",
+    "formula": "$\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\cdots$",
+    "description": "Series capacitance",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Joule heating",
+    "formula": "$P = I^2 R$",
+    "description": "Power dissipated resistor",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Electric potential (point)",
+    "formula": "$V = k \\frac{q}{r}$",
+    "description": "Electric potential point charge",
+    "category": "Electromagnetism",
+    "difficulty": 2
+  },
+  {
+    "name": "Reflection law",
+    "formula": "$\\theta_i = \\theta_r$",
+    "description": "Angle of incidence equals reflection",
+    "category": "Optics",
+    "difficulty": 1
+  },
+  {
+    "name": "Critical angle (total internal)",
+    "formula": "$\\sin\\theta_c = \\frac{n_2}{n_1}$",
+    "description": "Total internal reflection",
+    "category": "Optics",
+    "difficulty": 2
+  },
+  {
+    "name": "Magnification (lens)",
+    "formula": "$m = -\\frac{d_i}{d_o} = \\frac{h_i}{h_o}$",
+    "description": "Lateral magnification",
+    "category": "Optics",
+    "difficulty": 2
+  },
+  {
+    "name": "Thin lens power",
+    "formula": "$P = \\frac{1}{f}$",
+    "description": "Diopters",
+    "category": "Optics",
+    "difficulty": 2
+  },
+  {
+    "name": "Doppler (receding)",
+    "formula": "$f' = f \\frac{v}{v + v_s}$",
+    "description": "Source receding",
+    "category": "Waves",
+    "difficulty": 3
+  },
+  {
+    "name": "Standing wave (string)",
+    "formula": "$f_n = \\frac{nv}{2L}$",
+    "description": "Harmonics",
+    "category": "Waves",
+    "difficulty": 2
+  },
+  {
+    "name": "Beat frequency",
+    "formula": "$f_{beat} = |f_1 - f_2|$",
+    "description": "Beats",
+    "category": "Waves",
+    "difficulty": 2
+  },
+  {
+    "name": "Sound intensity level",
+    "formula": "$\\beta = 10 \\log_{10}\\frac{I}{I_0}$",
+    "description": "Decibels",
+    "category": "Waves",
+    "difficulty": 2
+  },
+  {
+    "name": "Boyle's law",
+    "formula": "$PV = \\text{const}$ at constant T",
+    "description": "Gas law",
+    "category": "Thermodynamics",
+    "difficulty": 1
+  },
+  {
+    "name": "Charles's law",
+    "formula": "$V/T = \\text{const}$ at constant P",
+    "description": "Gas law",
+    "category": "Thermodynamics",
+    "difficulty": 1
+  },
+  {
+    "name": "Avogadro's law",
+    "formula": "$V/n = \\text{const}$ at constant T P",
+    "description": "Gas law",
+    "category": "Thermodynamics",
+    "difficulty": 1
+  },
+  {
+    "name": "Efficiency (Carnot)",
+    "formula": "$\\eta = 1 - \\frac{T_c}{T_h}$",
+    "description": "Carnot efficiency",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Second law (Clausius)",
+    "formula": "$\\oint \\frac{dQ}{T} \\leq 0$",
+    "description": "Clausius inequality",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Boltzmann entropy",
+    "formula": "$S = k_B \\ln \\Omega$",
+    "description": "Statistical entropy",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "RMS speed (ideal gas)",
+    "formula": "$v_{rms} = \\sqrt{\\frac{3RT}{M}}$",
+    "description": "Root mean square speed",
+    "category": "Thermodynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Time dilation",
+    "formula": "$\\Delta t' = \\gamma \\Delta t$ with $\\gamma = 1/\\sqrt{1-v^2/c^2}$",
+    "description": "Special relativity time",
+    "category": "Relativity",
+    "difficulty": 3
+  },
+  {
+    "name": "Length contraction",
+    "formula": "$L' = L/\\gamma$",
+    "description": "Special relativity length",
+    "category": "Relativity",
+    "difficulty": 3
+  },
+  {
+    "name": "Relativistic momentum",
+    "formula": "$\\mathbf{p} = \\gamma m \\mathbf{v}$",
+    "description": "Relativistic momentum",
+    "category": "Relativity",
+    "difficulty": 3
+  },
+  {
+    "name": "Relativistic energy",
+    "formula": "$E = \\gamma m c^2$",
+    "description": "Total relativistic energy",
+    "category": "Relativity",
+    "difficulty": 4
+  },
+  {
+    "name": "Rydberg formula",
+    "formula": "$\\frac{1}{\\lambda} = R_H\\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)$",
+    "description": "Hydrogen spectrum",
+    "category": "Quantum mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Heisenberg uncertainty (energy-time)",
+    "formula": "$\\Delta E \\Delta t \\geq \\frac{\\hbar}{2}$",
+    "description": "Energy-time uncertainty",
+    "category": "Quantum mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Pauli exclusion",
+    "formula": "No two fermions in same quantum state",
+    "description": "Quantum mechanics",
+    "category": "Quantum mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Blackbody (Stefan-Boltzmann)",
+    "formula": "$P = \\sigma A T^4$",
+    "description": "Radiated power",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Wien displacement",
+    "formula": "$\\lambda_{max} T = b$",
+    "description": "Peak wavelength",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Wave equation",
+    "formula": "$\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\nabla^2 u$",
+    "description": "Classical wave equation; describes strings, sound, light",
+    "category": "Waves",
+    "difficulty": 4
+  },
+  {
+    "name": "Heat equation",
+    "formula": "$\\frac{\\partial u}{\\partial t} = \\alpha \\nabla^2 u$",
+    "description": "Diffusion of heat; parabolic PDE",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Navier-Stokes equation (incompressible)",
+    "formula": "$\\rho\\left(\\frac{\\partial \\mathbf{v}}{\\partial t} + (\\mathbf{v}\\cdot\\nabla)\\mathbf{v}\\right) = -\\nabla p + \\mu\\nabla^2\\mathbf{v} + \\mathbf{f}$",
+    "description": "Newton's second law for fluid flow; millennium problem",
+    "category": "Fluid dynamics",
+    "difficulty": 5
+  },
+  {
+    "name": "Second law of thermodynamics (inequality)",
+    "formula": "$\\Delta S_{universe} \\geq 0$",
+    "description": "Entropy of an isolated system never decreases",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Schrödinger equation (time-dependent)",
+    "formula": "$i\\hbar \\frac{\\partial \\psi}{\\partial t} = \\hat{H}\\psi$",
+    "description": "Evolution of the wave function in quantum mechanics",
+    "category": "Quantum mechanics",
+    "difficulty": 5
+  },
+  {
+    "name": "Einstein field equations",
+    "formula": "$G_{\\mu\\nu} + \\Lambda g_{\\mu\\nu} = \\kappa T_{\\mu\\nu}$",
+    "description": "General relativity; spacetime curvature from matter and energy",
+    "category": "Relativity",
+    "difficulty": 5
+  },
+  {
+    "name": "Dirac equation",
+    "formula": "$i\\hbar \\gamma^\\mu \\partial_\\mu \\psi - m c \\psi = 0$",
+    "description": "Relativistic quantum wave equation for spin-1/2 particles; predicted antimatter",
+    "category": "Quantum mechanics",
+    "difficulty": 5
+  },
+  {
+    "name": "Maxwell-Ampère law (integral)",
+    "formula": "$\\oint \\mathbf{B}\\cdot d\\mathbf{\\ell} = \\mu_0 I + \\mu_0\\epsilon_0 \\frac{d\\Phi_E}{dt}$",
+    "description": "Ampère's law with displacement current",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Euler-Lagrange equation",
+    "formula": "$\\frac{\\partial L}{\\partial q} - \\frac{d}{dt}\\frac{\\partial L}{\\partial \\dot{q}} = 0$",
+    "description": "Equation of motion from Lagrangian mechanics",
+    "category": "Mechanics",
+    "difficulty": 5
+  },
+  {
+    "name": "Hamilton's equations",
+    "formula": "$\\dot{q}_i = \\frac{\\partial H}{\\partial p_i}$, $\\dot{p}_i = -\\frac{\\partial H}{\\partial q_i}$",
+    "description": "Canonical equations of classical mechanics",
+    "category": "Mechanics",
+    "difficulty": 5
+  },
+  {
+    "name": "Boltzmann equation (entropy)",
+    "formula": "$S = k_B \\ln W$",
+    "description": "Statistical mechanics; entropy and microstates",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Continuity equation (charge)",
+    "formula": "$\\nabla \\cdot \\mathbf{J} + \\frac{\\partial \\rho}{\\partial t} = 0$",
+    "description": "Conservation of electric charge",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Pauli exclusion principle (form)",
+    "formula": "$|\\psi\\rangle$ antisymmetric for fermions",
+    "description": "No two identical fermions in same quantum state",
+    "category": "Quantum mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Commutator (quantum)",
+    "formula": "$[\\hat{A}, \\hat{B}] = \\hat{A}\\hat{B} - \\hat{B}\\hat{A}$",
+    "description": "Quantum mechanical commutator",
+    "category": "Quantum mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Position (constant velocity)",
+    "formula": "$x = x_0 + vt$",
+    "description": "Uniform motion",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Average velocity",
+    "formula": "$v_{avg} = \\frac{\\Delta x}{\\Delta t}$",
+    "description": "Average velocity",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Instantaneous velocity",
+    "formula": "$v = \\frac{dx}{dt}$",
+    "description": "Velocity as derivative",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Acceleration definition",
+    "formula": "$a = \\frac{dv}{dt}$",
+    "description": "Acceleration",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Angular acceleration",
+    "formula": "$\\alpha = \\frac{d\\omega}{dt}$",
+    "description": "Angular acceleration",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Rotational work",
+    "formula": "$W = \\tau \\theta$",
+    "description": "Work in rotation",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Angular impulse",
+    "formula": "$\\Delta L = \\tau \\Delta t$",
+    "description": "Change in angular momentum",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Escape velocity",
+    "formula": "$v_{esc} = \\sqrt{\\frac{2GM}{r}}$",
+    "description": "Escape speed",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Orbital velocity",
+    "formula": "$v = \\sqrt{\\frac{GM}{r}}$",
+    "description": "Circular orbit speed",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Coefficient of restitution",
+    "formula": "$e = -\\frac{v_2' - v_1'}{v_2 - v_1}$",
+    "description": "Restitution",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Stress",
+    "formula": "$\\sigma = \\frac{F}{A}$",
+    "description": "Normal stress",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Strain",
+    "formula": "$\\epsilon = \\frac{\\Delta L}{L}$",
+    "description": "Linear strain",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Young's modulus",
+    "formula": "$E = \\frac{\\sigma}{\\epsilon}$",
+    "description": "Elastic modulus",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Shear modulus",
+    "formula": "$G = \\frac{\\tau}{\\gamma}$",
+    "description": "Shear stress over strain",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Bulk modulus",
+    "formula": "$B = -V \\frac{dP}{dV}$",
+    "description": "Bulk modulus",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Poisson's ratio",
+    "formula": "$\\nu = -\\frac{\\epsilon_{lat}}{\\epsilon_{axial}}$",
+    "description": "Poisson ratio",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Heat current",
+    "formula": "$H = kA \\frac{\\Delta T}{L}$",
+    "description": "Conduction heat rate",
+    "category": "Thermodynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Stefan-Boltzmann law",
+    "formula": "$P = \\sigma A T^4$",
+    "description": "Radiated power",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Wien's law",
+    "formula": "$\\lambda_{max} T = b$",
+    "description": "Peak wavelength",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Efficiency (heat engine)",
+    "formula": "$\\eta = 1 - \\frac{Q_c}{Q_h}$",
+    "description": "Thermal efficiency",
+    "category": "Thermodynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Coefficient of performance (refrigerator)",
+    "formula": "$\\text{COP} = \\frac{Q_c}{W}$",
+    "description": "Refrigerator COP",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Electric potential energy (two charges)",
+    "formula": "$U = k \\frac{q_1 q_2}{r}$",
+    "description": "Potential energy of two charges",
+    "category": "Electromagnetism",
+    "difficulty": 2
+  },
+  {
+    "name": "Electric flux",
+    "formula": "$\\Phi_E = \\int \\mathbf{E} \\cdot d\\mathbf{A}$",
+    "description": "Electric flux",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Gauss's law (integral)",
+    "formula": "$\\Phi_E = \\frac{Q_{enc}}{\\epsilon_0}$",
+    "description": "Gauss law integral form",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Magnetic flux density",
+    "formula": "$B = \\frac{\\Phi}{A}$",
+    "description": "Magnetic field from flux",
+    "category": "Electromagnetism",
+    "difficulty": 2
+  },
+  {
+    "name": "Force between parallel wires",
+    "formula": "$\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi d}$",
+    "description": "Force per length",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Self-inductance EMF",
+    "formula": "$\\mathcal{E} = -L \\frac{dI}{dt}$",
+    "description": "Faraday for inductor",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Energy density (electric field)",
+    "formula": "$u = \\frac{1}{2}\\epsilon_0 E^2$",
+    "description": "Energy per volume E-field",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Energy density (magnetic field)",
+    "formula": "$u = \\frac{B^2}{2\\mu_0}$",
+    "description": "Energy per volume B-field",
+    "category": "Electromagnetism",
+    "difficulty": 3
+  },
+  {
+    "name": "Poynting vector",
+    "formula": "$\\mathbf{S} = \\frac{1}{\\mu_0} \\mathbf{E} \\times \\mathbf{B}$",
+    "description": "EM energy flux",
+    "category": "Electromagnetism",
+    "difficulty": 5
+  },
+  {
+    "name": "Reflection (angle)",
+    "formula": "$\\theta_i = \\theta_r$",
+    "description": "Law of reflection",
+    "category": "Optics",
+    "difficulty": 1
+  },
+  {
+    "name": "Critical angle",
+    "formula": "$\\sin\\theta_c = n_2/n_1$",
+    "description": "Total internal reflection",
+    "category": "Optics",
+    "difficulty": 2
+  },
+  {
+    "name": "Brewster's angle",
+    "formula": "$\\tan\\theta_B = n_2/n_1$",
+    "description": "Polarizing angle",
+    "category": "Optics",
+    "difficulty": 3
+  },
+  {
+    "name": "Thin film (constructive)",
+    "formula": "$2nt = m\\lambda$",
+    "description": "Constructive interference",
+    "category": "Optics",
+    "difficulty": 3
+  },
+  {
+    "name": "Single-slit minimum",
+    "formula": "$a \\sin\\theta = m\\lambda$",
+    "description": "Diffraction minimum",
+    "category": "Optics",
+    "difficulty": 3
+  },
+  {
+    "name": "Bragg's law",
+    "formula": "$2d\\sin\\theta = n\\lambda$",
+    "description": "X-ray diffraction",
+    "category": "Optics",
+    "difficulty": 4
+  },
+  {
+    "name": "Rydberg constant",
+    "formula": "$R_H \\approx 1.097 \\times 10^7$ m⁻¹",
+    "description": "Rydberg constant",
+    "category": "Quantum mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Bohr radius",
+    "formula": "$a_0 = \\frac{4\\pi\\epsilon_0 \\hbar^2}{m_e e^2}$",
+    "description": "Bohr radius",
+    "category": "Quantum mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Spin (electron)",
+    "formula": "$s = \\frac{1}{2}$, $m_s = \\pm \\frac{1}{2}$",
+    "description": "Electron spin",
+    "category": "Quantum mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Projectile range",
+    "formula": "$R = \\frac{v_0^2 \\sin(2\\theta)}{g}$",
+    "description": "Range of projectile",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Projectile max height",
+    "formula": "$H = \\frac{v_0^2 \\sin^2\\theta}{2g}$",
+    "description": "Max height projectile",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Time of flight",
+    "formula": "$T = \\frac{2v_0 \\sin\\theta}{g}$",
+    "description": "Time of flight",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Centripetal force",
+    "formula": "$F_c = \\frac{mv^2}{r}$",
+    "description": "Centripetal force",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Period (circular)",
+    "formula": "$T = \\frac{2\\pi r}{v}$",
+    "description": "Period circular motion",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Frequency",
+    "formula": "$f = \\frac{1}{T}$",
+    "description": "Frequency",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Moment of inertia (rod center)",
+    "formula": "$I = \\frac{1}{12} M L^2$",
+    "description": "Rod about center",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Moment of inertia (disk)",
+    "formula": "$I = \\frac{1}{2} M R^2$",
+    "description": "Disk about axis",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Moment of inertia (sphere)",
+    "formula": "$I = \\frac{2}{5} M R^2$",
+    "description": "Solid sphere",
+    "category": "Mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Moment of inertia (ring)",
+    "formula": "$I = M R^2$",
+    "description": "Ring about axis",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Conservation of angular momentum",
+    "formula": "$\\mathbf{L} = \\text{const}$ when $\\tau_{ext}=0$",
+    "description": "Angular momentum conservation",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Precession angular velocity",
+    "formula": "$\\Omega = \\frac{mgr}{I\\omega}$",
+    "description": "Precession rate",
+    "category": "Mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Damped oscillation",
+    "formula": "$x = A e^{-\\gamma t} \\cos(\\omega' t + \\phi)$",
+    "description": "Damped harmonic",
+    "category": "Mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Quality factor",
+    "formula": "$Q = \\frac{\\omega_0}{2\\gamma}$",
+    "description": "Q factor",
+    "category": "Mechanics",
+    "difficulty": 3
+  },
+  {
+    "name": "Resonance frequency",
+    "formula": "$\\omega_r = \\sqrt{\\omega_0^2 - 2\\gamma^2}$",
+    "description": "Resonance",
+    "category": "Mechanics",
+    "difficulty": 4
+  },
+  {
+    "name": "Standing wave (fixed ends)",
+    "formula": "$\\lambda_n = \\frac{2L}{n}$",
+    "description": "Wavelengths on string",
+    "category": "Waves",
+    "difficulty": 2
+  },
+  {
+    "name": "Beat period",
+    "formula": "$T_{beat} = \\frac{1}{|f_1 - f_2|}$",
+    "description": "Beat period",
+    "category": "Waves",
+    "difficulty": 2
+  },
+  {
+    "name": "Intensity (spherical)",
+    "formula": "$I = \\frac{P}{4\\pi r^2}$",
+    "description": "Intensity from point source",
+    "category": "Waves",
+    "difficulty": 2
+  },
+  {
+    "name": "Doppler (observer moving)",
+    "formula": "$f' = f \\frac{v \\pm v_o}{v}$",
+    "description": "Observer moving",
+    "category": "Waves",
+    "difficulty": 3
+  },
+  {
+    "name": "Mach number",
+    "formula": "$M = \\frac{v}{v_{sound}}$",
+    "description": "Mach number",
+    "category": "Fluid dynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Venturi effect",
+    "formula": "$P_1 + \\frac{1}{2}\\rho v_1^2 = P_2 + \\frac{1}{2}\\rho v_2^2$",
+    "description": "Bernoulli in Venturi",
+    "category": "Fluid dynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Viscous force (Stokes)",
+    "formula": "$F = 6\\pi \\eta r v$",
+    "description": "Stokes law",
+    "category": "Fluid dynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Surface tension force",
+    "formula": "$F = \\gamma L$",
+    "description": "Surface tension",
+    "category": "Fluid dynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Capillary rise",
+    "formula": "$h = \\frac{2\\gamma \\cos\\theta}{\\rho g r}$",
+    "description": "Capillary rise",
+    "category": "Fluid dynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Adiabatic process (ideal gas)",
+    "formula": "$PV^\\gamma = \\text{const}$",
+    "description": "Adiabatic relation",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  },
+  {
+    "name": "Gamma (ideal gas)",
+    "formula": "$\\gamma = \\frac{C_p}{C_v}$",
+    "description": "Ratio of heat capacities",
+    "category": "Thermodynamics",
+    "difficulty": 2
+  },
+  {
+    "name": "Entropy (ideal gas)",
+    "formula": "$\\Delta S = n C_v \\ln(T_2/T_1) + nR\\ln(V_2/V_1)$",
+    "description": "Entropy change ideal gas",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Helmholtz free energy",
+    "formula": "$F = U - TS$",
+    "description": "Helmholtz free energy",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Gibbs free energy",
+    "formula": "$G = H - TS$",
+    "description": "Gibbs free energy",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Chemical potential",
+    "formula": "$\\mu = \\frac{\\partial G}{\\partial n}$",
+    "description": "Chemical potential",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Clausius-Clapeyron",
+    "formula": "$\\frac{dP}{dT} = \\frac{L}{T \\Delta V}$",
+    "description": "Clausius-Clapeyron",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Maxwell-Boltzmann distribution",
+    "formula": "$f(v) \\propto v^2 e^{-mv^2/(2k_B T)}$",
+    "description": "Speed distribution",
+    "category": "Thermodynamics",
+    "difficulty": 4
+  },
+  {
+    "name": "Equipartition theorem",
+    "formula": "$E = \\frac{1}{2} k_B T$ per quadratic dof",
+    "description": "Equipartition",
+    "category": "Thermodynamics",
+    "difficulty": 3
+  }
+]
