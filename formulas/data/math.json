@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Bhaskara formula",
+    "formula": "$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+    "description": "Solutions of the quadratic equation ax² + bx + c = 0.",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Pythagorean theorem",
+    "formula": "$a^2 + b^2 = c^2$",
+    "description": "In a right triangle, the square of the hypotenuse equals the sum of squares of the legs.",
+    "category": "Geometry",
+    "difficulty": 1
+  },
+  {
+    "name": "Euler's identity",
+    "formula": "$e^{i\\pi} + 1 = 0$",
+    "description": "Euler's identity links five fundamental constants: e, i, π, 1, and 0.",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Definition of derivative",
+    "formula": "$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$",
+    "description": "The derivative of f at x is the limit of the difference quotient.",
+    "category": "Calculus",
+    "difficulty": 2
+  },
+  {
+    "name": "Fundamental theorem of calculus",
+    "formula": "$\\int_a^b f(x)\\,dx = F(b) - F(a)$",
+    "description": "The definite integral equals the difference of the antiderivative at the endpoints.",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Sum of first n integers",
+    "formula": "$1 + 2 + \\cdots + n = \\frac{n(n+1)}{2}$",
+    "description": "Closed form for the sum of the first n positive integers.",
+    "category": "Algebra",
+    "difficulty": 1
+  },
+  {
+    "name": "Binomial theorem",
+    "formula": "$(a+b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k$",
+    "description": "Expansion of (a+b)^n using binomial coefficients.",
+    "category": "Algebra",
+    "difficulty": 2
+  },
+  {
+    "name": "Euler's formula",
+    "formula": "$e^{i\\theta} = \\cos\\theta + i\\sin\\theta$",
+    "description": "Relation between the exponential and trigonometric functions.",
+    "category": "Calculus",
+    "difficulty": 3
+  },
+  {
+    "name": "Gaussian integral",
+    "formula": "$\\int_{-\\infty}^{\\infty} e^{-x^2} dx = \\sqrt{\\pi}$",
+    "description": "The Gaussian integral is equal to the square root of π.",
+    "category": "Calculus",
+    "difficulty": 4
+  },
+  {
+    "name": "Law of cosines",
+    "formula": "$c^2 = a^2 + b^2 - 2ab\\cos C$",
+    "description": "Generalization of the Pythagorean theorem to any triangle.",
+    "category": "Geometry",
+    "difficulty": 2
+  }
+]

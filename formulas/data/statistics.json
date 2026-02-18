@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Mean (average)",
+    "formula": "$\\bar{x} = \\frac{1}{n}\\sum_{i=1}^{n} x_i$",
+    "description": "Arithmetic mean of n observations.",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Variance",
+    "formula": "$\\sigma^2 = \\frac{1}{n}\\sum_{i=1}^{n}(x_i - \\bar{x})^2$",
+    "description": "Average squared deviation from the mean.",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Standard deviation",
+    "formula": "$\\sigma = \\sqrt{\\frac{1}{n}\\sum_{i=1}^{n}(x_i - \\bar{x})^2}$",
+    "description": "Square root of the variance; same units as the data.",
+    "category": "Descriptive",
+    "difficulty": 1
+  },
+  {
+    "name": "Normal distribution PDF",
+    "formula": "$f(x) = \\frac{1}{\\sigma\\sqrt{2\\pi}} e^{-\\frac{(x-\\mu)^2}{2\\sigma^2}}$",
+    "description": "Probability density function of the normal distribution.",
+    "category": "Probability",
+    "difficulty": 3
+  },
+  {
+    "name": "Linear regression slope",
+    "formula": "$\\hat{\\beta}_1 = \\frac{\\sum(x_i - \\bar{x})(y_i - \\bar{y})}{\\sum(x_i - \\bar{x})^2}$",
+    "description": "Least-squares slope in simple linear regression.",
+    "category": "Regression",
+    "difficulty": 2
+  },
+  {
+    "name": "Correlation coefficient",
+    "formula": "$r = \\frac{\\sum(x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum(x_i-\\bar{x})^2 \\sum(y_i-\\bar{y})^2}}$",
+    "description": "Pearson correlation between two variables.",
+    "category": "Descriptive",
+    "difficulty": 2
+  },
+  {
+    "name": "Bayes' theorem",
+    "formula": "$P(A|B) = \\frac{P(B|A)P(A)}{P(B)}$",
+    "description": "Update probability of A given evidence B.",
+    "category": "Probability",
+    "difficulty": 2
+  },
+  {
+    "name": "Chi-squared statistic",
+    "formula": "$\\chi^2 = \\sum_{i} \\frac{(O_i - E_i)^2}{E_i}$",
+    "description": "Goodness-of-fit statistic comparing observed and expected counts.",
+    "category": "Inference",
+    "difficulty": 3
+  },
+  {
+    "name": "Standard error of the mean",
+    "formula": "$SE_{\\bar{x}} = \\frac{\\sigma}{\\sqrt{n}}$",
+    "description": "Standard deviation of the sampling distribution of the mean.",
+    "category": "Inference",
+    "difficulty": 2
+  },
+  {
+    "name": "Z-score",
+    "formula": "$z = \\frac{x - \\mu}{\\sigma}$",
+    "description": "Number of standard deviations x is from the mean.",
+    "category": "Descriptive",
+    "difficulty": 1
+  }
+]

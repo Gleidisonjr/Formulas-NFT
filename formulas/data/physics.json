@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Mass-energy equivalence",
+    "formula": "$E = mc^2$",
+    "description": "Energy equals mass times the speed of light squared (special relativity).",
+    "category": "Relativity",
+    "difficulty": 2
+  },
+  {
+    "name": "Newton's second law",
+    "formula": "$F = ma$",
+    "description": "Force equals mass times acceleration.",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Kinetic energy",
+    "formula": "$K = \\frac{1}{2}mv^2$",
+    "description": "Kinetic energy of a particle of mass m and speed v.",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Gravitational potential energy",
+    "formula": "$U = mgh$",
+    "description": "Potential energy near Earth's surface (height h).",
+    "category": "Mechanics",
+    "difficulty": 1
+  },
+  {
+    "name": "Maxwell–Faraday equation",
+    "formula": "$\\nabla \\times \\mathbf{E} = -\\frac{\\partial \\mathbf{B}}{\\partial t}$",
+    "description": "A changing magnetic field induces an electric field.",
+    "category": "Electromagnetism",
+    "difficulty": 4
+  },
+  {
+    "name": "Schrödinger equation (time-independent)",
+    "formula": "$\\hat{H}\\psi = E\\psi$",
+    "description": "Eigenvalue equation for the energy of a quantum state.",
+    "category": "Quantum mechanics",
+    "difficulty": 5
+  },
+  {
+    "name": "Ideal gas law",
+    "formula": "$PV = nRT$",
+    "description": "Relation between pressure, volume, amount, and temperature of an ideal gas.",
+    "category": "Thermodynamics",
+    "difficulty": 1
+  },
+  {
+    "name": "Planck–Einstein relation",
+    "formula": "$E = h\\nu$",
+    "description": "Energy of a photon is proportional to its frequency.",
+    "category": "Quantum mechanics",
+    "difficulty": 2
+  },
+  {
+    "name": "Coulomb's law",
+    "formula": "$F = k \\frac{|q_1 q_2|}{r^2}$",
+    "description": "Electrostatic force between two point charges.",
+    "category": "Electromagnetism",
+    "difficulty": 1
+  },
+  {
+    "name": "Uncertainty principle",
+    "formula": "$\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}$",
+    "description": "Position and momentum cannot both be known with arbitrary precision.",
+    "category": "Quantum mechanics",
+    "difficulty": 4
+  }
+]
