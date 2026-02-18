@@ -1,0 +1,640 @@
+name,formula,description,category,difficulty,subject
+Percent decrease,$\text{decrease\%} = \frac{\text{original} - \text{new}}{\text{original}} \times 100$,Percent decrease,Arithmetic,1,Math
+Compound interest (continuous),$A = P e^{rt}$,Continuous compounding,Arithmetic,2,Math
+Root of product,$\sqrt{ab} = \sqrt{a}\sqrt{b}$,Square root of product,Algebra,1,Math
+Root of quotient,$\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}$,Square root of quotient,Algebra,1,Math
+Completing the square,$x^2 + bx + c = \left(x + \frac{b}{2}\right)^2 - \frac{b^2}{4} + c$,Completing the square,Algebra,2,Math
+Sum of roots (quadratic),$x_1 + x_2 = -\frac{b}{a}$,Vieta sum of roots,Algebra,2,Math
+Product of roots (quadratic),$x_1 x_2 = \frac{c}{a}$,Vieta product of roots,Algebra,2,Math
+Arithmetic sequence nth term,$a_n = a_1 + (n-1)d$,nth term of arithmetic sequence,Algebra,1,Math
+Arithmetic series sum,$S_n = \frac{n}{2}(2a_1 + (n-1)d)$,Sum of arithmetic sequence,Algebra,1,Math
+Geometric sequence nth term,$a_n = a_1 r^{n-1}$,nth term of geometric sequence,Algebra,1,Math
+Sum of cubes (1 to n),$\sum_{k=1}^{n} k^3 = \left(\frac{n(n+1)}{2}\right)^2$,Sum of first n cubes,Algebra,2,Math
+Absolute value inequality,$|x| < a \Leftrightarrow -a < x < a$,Absolute value inequality,Algebra,1,Math
+Rational exponent,$a^{m/n} = \sqrt[n]{a^m}$,Rational exponent definition,Algebra,1,Math
+Conjugate (complex),$\overline{z} = a - bi$ for $z = a + bi$,Complex conjugate,Algebra,1,Math
+Modulus (complex),$|z| = \sqrt{a^2 + b^2}$,Modulus of complex number,Algebra,1,Math
+De Moivre's theorem,$(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)$,De Moivre,Algebra,3,Math
+Roots of unity,$z^n = 1 \Rightarrow z = e^{2\pi i k/n}$,nth roots of unity,Algebra,3,Math
+AM-GM inequality,"$\frac{a+b}{2} \geq \sqrt{ab}$ for $a,b \geq 0$",Arithmetic mean ≥ geometric mean,Algebra,2,Math
+AM-GM (n numbers),$\frac{1}{n}\sum x_i \geq \left(\prod x_i\right)^{1/n}$,General AM-GM,Algebra,3,Math
+Young inequality,$ab \leq \frac{a^p}{p} + \frac{b^q}{q}$ for $\frac{1}{p}+\frac{1}{q}=1$,Young inequality,Algebra,4,Math
+Derivative of cot,$\frac{d}{dx}\cot x = -\csc^2 x$,Derivative of cotangent,Calculus,2,Math
+Derivative of csc,$\frac{d}{dx}\csc x = -\csc x \cot x$,Derivative of cosecant,Calculus,2,Math
+Derivative of a^x,$\frac{d}{dx}a^x = a^x \ln a$,Derivative of exponential base a,Calculus,2,Math
+Derivative of log_a x,$\frac{d}{dx}\log_a x = \frac{1}{x \ln a}$,Derivative of log base a,Calculus,2,Math
+Derivative of cosh,$\frac{d}{dx}\cosh x = \sinh x$,Derivative of hyperbolic cosine,Calculus,3,Math
+Derivative of sinh,$\frac{d}{dx}\sinh x = \cosh x$,Derivative of hyperbolic sine,Calculus,3,Math
+Integral of tan,"$\int \tan x\,dx = -\ln|\cos x| + C$",Antiderivative of tan,Calculus,2,Math
+Integral of sec,"$\int \sec x\,dx = \ln|\sec x + \tan x| + C$",Antiderivative of sec,Calculus,3,Math
+Integral of csc,"$\int \csc x\,dx = -\ln|\csc x + \cot x| + C$",Antiderivative of csc,Calculus,3,Math
+Integral 1/(a^2+x^2),$\int \frac{dx}{a^2+x^2} = \frac{1}{a}\arctan\frac{x}{a} + C$,Arctangent integral,Calculus,2,Math
+Integral 1/sqrt(a^2-x^2),$\int \frac{dx}{\sqrt{a^2-x^2}} = \arcsin\frac{x}{a} + C$,Arcsin integral,Calculus,2,Math
+Reduction formula (sin^n),"$\int \sin^n x\,dx = -\frac{1}{n}\sin^{n-1}x\cos x + \frac{n-1}{n}\int\sin^{n-2}x\,dx$",Recursion for sin^n,Calculus,4,Math
+Limit sin(x)/x,$\lim_{x\to 0} \frac{\sin x}{x} = 1$,Standard limit,Calculus,2,Math
+Limit (1+1/x)^x,$\lim_{x\to\infty} \left(1+\frac{1}{x}\right)^x = e$,Definition of e,Calculus,2,Math
+Maclaurin ln(1+x),$\ln(1+x) = \sum_{n=1}^{\infty} \frac{(-1)^{n+1} x^n}{n}$ for $|x|<1$,Log series,Calculus,3,Math
+Maclaurin (1+x)^a,$(1+x)^a = \sum_{n=0}^{\infty} \binom{a}{n} x^n$,Binomial series,Calculus,4,Math
+p-series convergence,$\sum_{n=1}^{\infty} \frac{1}{n^p}$ converges iff $p > 1$,p-series,Calculus,3,Math
+Root test,$\lim_{n\to\infty} \sqrt[n]{|a_n|} < 1 \Rightarrow \sum a_n$ converges,Root test,Calculus,3,Math
+Alternating series test,"$b_n \geq 0$, $b_n \to 0$, $b_n$ decreasing $\Rightarrow \sum (-1)^n b_n$ converges",Leibniz criterion,Calculus,3,Math
+Perimeter of triangle,$P = a + b + c$,Sum of sides,Geometry,1,Math
+Area of rhombus,$A = \frac{1}{2} d_1 d_2$,Diagonals,Geometry,1,Math
+Area of kite,$A = \frac{1}{2} d_1 d_2$,Diagonals,Geometry,1,Math
+Surface area sphere,$SA = 4\pi r^2$,Surface area of sphere,Geometry,1,Math
+Volume of hemisphere,$V = \frac{2}{3}\pi r^3$,Half sphere volume,Geometry,1,Math
+Lateral area cylinder,$LA = 2\pi r h$,Lateral surface,Geometry,1,Math
+Slant height (cone),$s = \sqrt{r^2 + h^2}$,Slant height of cone,Geometry,1,Math
+Volume of tetrahedron,$V = \frac{1}{3}Bh$,Pyramid with triangular base,Geometry,2,Math
+Distance point to line,$d = \frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$,Distance from point to line,Geometry,2,Math
+Midpoint formula,"$M = \left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$",Midpoint of segment,Geometry,1,Math
+Tangent definition,$\tan\theta = \frac{\sin\theta}{\cos\theta}$,Tangent ratio,Trigonometry,1,Math
+Cotangent definition,$\cot\theta = \frac{\cos\theta}{\sin\theta}$,Cotangent ratio,Trigonometry,1,Math
+Secant definition,$\sec\theta = \frac{1}{\cos\theta}$,Secant ratio,Trigonometry,1,Math
+Cosecant definition,$\csc\theta = \frac{1}{\sin\theta}$,Cosecant ratio,Trigonometry,1,Math
+Tangent of sum,$\tan(\alpha+\beta) = \frac{\tan\alpha + \tan\beta}{1 - \tan\alpha\tan\beta}$,Tangent sum formula,Trigonometry,2,Math
+Tangent of difference,$\tan(\alpha-\beta) = \frac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta}$,Tangent difference,Trigonometry,2,Math
+Double-angle tangent,$\tan(2\theta) = \frac{2\tan\theta}{1-\tan^2\theta}$,Double angle tan,Trigonometry,2,Math
+Half-angle tangent,$\tan\frac{\theta}{2} = \frac{\sin\theta}{1+\cos\theta}$,Half angle tan,Trigonometry,3,Math
+Sum to product (cos),$\cos A + \cos B = 2\cos\frac{A+B}{2}\cos\frac{A-B}{2}$,Sum to product cosine,Trigonometry,3,Math
+Product sin cos,$\sin A \cos B = \frac{1}{2}[\sin(A+B) + \sin(A-B)]$,Product to sum,Trigonometry,3,Math
+Matrix trace,$\text{tr}(A) = \sum_i a_{ii}$,Sum of diagonal entries,Linear Algebra,1,Math
+Determinant of inverse,$\det(A^{-1}) = \frac{1}{\det(A)}$,Determinant of inverse,Linear Algebra,2,Math
+Rank-nullity theorem,"$\dim(\text{im}\,T) + \dim(\ker T) = n$",Rank plus nullity,Linear Algebra,4,Math
+Cramer's rule (2x2),$x = \frac{\det(A_x)}{\det(A)}$ for $Ax = b$,Cramer 2x2,Linear Algebra,2,Math
+Exact ODE condition,"$M\,dx + N\,dy = 0$ exact iff $\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x}$",Exactness condition,Differential Equations,3,Math
+Integrating factor (linear),"$\mu(x) = e^{\int P(x)\,dx}$ for $y' + P(x)y = Q(x)$",Integrating factor,Differential Equations,3,Math
+Wronskian,"$W(y_1,y_2) = y_1 y_2' - y_2 y_1'$",Wronskian determinant,Differential Equations,3,Math
+Method of undetermined coefficients,$y_p$ guessed from form of $f(x)$,Particular solution,Differential Equations,4,Math
+GCD Bézout,"$\gcd(a,b) = ax + by$ for some integers $x,y$",Bézout identity,Number Theory,3,Math
+Euclidean algorithm,"$\gcd(a,b) = \gcd(b, a \bmod b)$",GCD recursion,Number Theory,2,Math
+LCM and GCD,"$\text{lcm}(a,b) \cdot \gcd(a,b) = |ab|$",LCM times GCD,Number Theory,2,Math
+Permutations,"$P(n,r) = \frac{n!}{(n-r)!}$",Number of permutations,Combinatorics,1,Math
+Combinations,"$C(n,r) = \binom{n}{r} = \frac{n!}{r!(n-r)!}$",Number of combinations,Combinatorics,1,Math
+Stirling numbers (2nd kind),"$S(n,k)$ = ways to partition $n$ into $k$ nonempty sets",Stirling second kind,Combinatorics,4,Math
+Inclusion-exclusion,$|A \cup B| = |A| + |B| - |A \cap B|$,Inclusion-exclusion,Combinatorics,1,Math
+Pigeonhole principle,$n+1$ objects in $n$ boxes $\Rightarrow$ one box has $\geq 2$,Pigeonhole,Combinatorics,1,Math
+Catalan number,$C_n = \frac{1}{n+1}\binom{2n}{n}$,Catalan numbers,Combinatorics,3,Math
+Position (constant velocity),$x = x_0 + vt$,Uniform motion,Mechanics,1,Physics
+Average velocity,$v_{avg} = \frac{\Delta x}{\Delta t}$,Average velocity,Mechanics,1,Physics
+Instantaneous velocity,$v = \frac{dx}{dt}$,Velocity as derivative,Mechanics,1,Physics
+Acceleration definition,$a = \frac{dv}{dt}$,Acceleration,Mechanics,1,Physics
+Angular acceleration,$\alpha = \frac{d\omega}{dt}$,Angular acceleration,Mechanics,2,Physics
+Rotational work,$W = \tau \theta$,Work in rotation,Mechanics,2,Physics
+Angular impulse,$\Delta L = \tau \Delta t$,Change in angular momentum,Mechanics,2,Physics
+Escape velocity,$v_{esc} = \sqrt{\frac{2GM}{r}}$,Escape speed,Mechanics,3,Physics
+Orbital velocity,$v = \sqrt{\frac{GM}{r}}$,Circular orbit speed,Mechanics,3,Physics
+Coefficient of restitution,$e = -\frac{v_2' - v_1'}{v_2 - v_1}$,Restitution,Mechanics,3,Physics
+Stress,$\sigma = \frac{F}{A}$,Normal stress,Mechanics,2,Physics
+Strain,$\epsilon = \frac{\Delta L}{L}$,Linear strain,Mechanics,2,Physics
+Young's modulus,$E = \frac{\sigma}{\epsilon}$,Elastic modulus,Mechanics,2,Physics
+Shear modulus,$G = \frac{\tau}{\gamma}$,Shear stress over strain,Mechanics,3,Physics
+Bulk modulus,$B = -V \frac{dP}{dV}$,Bulk modulus,Mechanics,3,Physics
+Poisson's ratio,$\nu = -\frac{\epsilon_{lat}}{\epsilon_{axial}}$,Poisson ratio,Mechanics,3,Physics
+Heat current,$H = kA \frac{\Delta T}{L}$,Conduction heat rate,Thermodynamics,2,Physics
+Stefan-Boltzmann law,$P = \sigma A T^4$,Radiated power,Thermodynamics,3,Physics
+Wien's law,$\lambda_{max} T = b$,Peak wavelength,Thermodynamics,3,Physics
+Efficiency (heat engine),$\eta = 1 - \frac{Q_c}{Q_h}$,Thermal efficiency,Thermodynamics,2,Physics
+Coefficient of performance (refrigerator),$\text{COP} = \frac{Q_c}{W}$,Refrigerator COP,Thermodynamics,3,Physics
+Electric potential energy (two charges),$U = k \frac{q_1 q_2}{r}$,Potential energy of two charges,Electromagnetism,2,Physics
+Electric flux,$\Phi_E = \int \mathbf{E} \cdot d\mathbf{A}$,Electric flux,Electromagnetism,3,Physics
+Gauss's law (integral),$\Phi_E = \frac{Q_{enc}}{\epsilon_0}$,Gauss law integral form,Electromagnetism,3,Physics
+Magnetic flux density,$B = \frac{\Phi}{A}$,Magnetic field from flux,Electromagnetism,2,Physics
+Force between parallel wires,$\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}$,Force per length,Electromagnetism,4,Physics
+Self-inductance EMF,$\mathcal{E} = -L \frac{dI}{dt}$,Faraday for inductor,Electromagnetism,3,Physics
+Energy density (electric field),$u = \frac{1}{2}\epsilon_0 E^2$,Energy per volume E-field,Electromagnetism,3,Physics
+Energy density (magnetic field),$u = \frac{B^2}{2\mu_0}$,Energy per volume B-field,Electromagnetism,3,Physics
+Poynting vector,$\mathbf{S} = \frac{1}{\mu_0} \mathbf{E} \times \mathbf{B}$,EM energy flux,Electromagnetism,5,Physics
+Reflection (angle),$\theta_i = \theta_r$,Law of reflection,Optics,1,Physics
+Critical angle,$\sin\theta_c = n_2/n_1$,Total internal reflection,Optics,2,Physics
+Brewster's angle,$\tan\theta_B = n_2/n_1$,Polarizing angle,Optics,3,Physics
+Thin film (constructive),$2nt = m\lambda$,Constructive interference,Optics,3,Physics
+Single-slit minimum,$a \sin\theta = m\lambda$,Diffraction minimum,Optics,3,Physics
+Bragg's law,$2d\sin\theta = n\lambda$,X-ray diffraction,Optics,4,Physics
+Rydberg constant,$R_H \approx 1.097 \times 10^7$ m⁻¹,Rydberg constant,Quantum mechanics,3,Physics
+Bohr radius,$a_0 = \frac{4\pi\epsilon_0 \hbar^2}{m_e e^2}$,Bohr radius,Quantum mechanics,4,Physics
+Spin (electron),"$s = \frac{1}{2}$, $m_s = \pm \frac{1}{2}$",Electron spin,Quantum mechanics,3,Physics
+Mode,Mode = most frequent value,Mode definition,Descriptive,1,Statistics
+Range,$R = x_{max} - x_{min}$,Range of data,Descriptive,1,Statistics
+Coefficient of variation,$CV = \frac{\sigma}{\mu} \times 100\%$,Relative variability,Descriptive,2,Statistics
+Standard error (two proportions),$SE = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}}$,SE difference of proportions,Inference,2,Statistics
+Pooled variance (t-test),$s_p^2 = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1+n_2-2}$,Pooled variance,Inference,2,Statistics
+Degrees of freedom (t),$df = n - 1$ (one-sample),df one-sample t,Inference,1,Statistics
+Chi-square goodness of fit df,$df = k - 1$,Goodness of fit df,Inference,2,Statistics
+ANOVA between-group SS,$SS_{between} = \sum n_i (\bar{x}_i - \bar{x})^2$,Between groups sum of squares,Inference,3,Statistics
+ANOVA within-group SS,$SS_{within} = \sum_i \sum_j (x_{ij} - \bar{x}_i)^2$,Within groups sum of squares,Inference,3,Statistics
+Kruskal-Wallis test,$H = \frac{12}{N(N+1)} \sum \frac{R_i^2}{n_i} - 3(N+1)$,Nonparametric ANOVA,Inference,4,Statistics
+Mann-Whitney U,U statistic for two independent samples,Mann-Whitney,Inference,3,Statistics
+Sign test,Binomial test on signs of differences,Sign test,Inference,2,Statistics
+Simple moving average,$\bar{x}_t = \frac{1}{k}\sum_{i=0}^{k-1} x_{t-i}$,Moving average,Time Series,1,Statistics
+Exponential weighted moving average,$EMA_t = \alpha x_t + (1-\alpha) EMA_{t-1}$,EWMA,Time Series,2,Statistics
+Autocorrelation,"$\rho_k = \frac{\text{Cov}(X_t, X_{t-k})}{\sigma^2}$",Autocorrelation at lag k,Time Series,3,Statistics
+Log odds,$\text{logit}(p) = \ln\frac{p}{1-p}$,Logit function,Regression,2,Statistics
+Deviance,$D = -2(\ell(\hat{\theta}) - \ell(\theta_{sat}))$,Deviance (GLM),Regression,4,Statistics
+AIC,$AIC = 2k - 2\ln(\hat{L})$,Akaike information criterion,Regression,3,Statistics
+BIC,$BIC = k\ln n - 2\ln(\hat{L})$,Bayesian information criterion,Regression,3,Statistics
+VIF,$VIF_j = \frac{1}{1 - R_j^2}$,Variance inflation factor,Regression,3,Statistics
+Cook's distance,$D_i = \frac{(y_i - \hat{y}_i)^2}{p \cdot MSE} \cdot \frac{h_{ii}}{(1-h_{ii})^2}$,Influence measure,Regression,4,Statistics
+Leverage,$h_{ii}$ diagonal of hat matrix,Leverage,Regression,3,Statistics
+Multinomial coefficient,"$\binom{n}{k_1,\ldots,k_m} = \frac{n!}{k_1!\cdots k_m!}$",Multinomial coefficient,Probability,2,Statistics
+Hypergeometric PMF,$P(X=k) = \frac{\binom{K}{k}\binom{N-K}{n-k}}{\binom{N}{n}}$,Hypergeometric distribution,Probability,3,Statistics
+Negative binomial (alternate),$P(X=k) = \binom{k+r-1}{r-1} p^r (1-p)^k$,Neg binomial (failures),Probability,3,Statistics
+Weibull PDF,$f(x) = \frac{k}{\lambda}\left(\frac{x}{\lambda}\right)^{k-1} e^{-(x/\lambda)^k}$,Weibull distribution,Probability,4,Statistics
+Lognormal,"$\ln X \sim N(\mu, \sigma^2)$",Lognormal distribution,Probability,3,Statistics
+Moment generating function,$M_X(t) = E[e^{tX}]$,MGF definition,Probability,3,Statistics
+Characteristic function,$\varphi_X(t) = E[e^{itX}]$,Characteristic function,Probability,4,Statistics
+Convolution (PDFs),"$f_{X+Y}(z) = \int f_X(x) f_Y(z-x)\,dx$",Sum of independent RVs,Probability,4,Statistics
+Pi approximation,$\pi \approx 3.14159$,Pi approximation,Geometry,1,Math
+e approximation,$e \approx 2.71828$,e approximation,Calculus,1,Math
+Biquadratic substitution,$ax^4 + bx^2 + c = 0$ substitute $u=x^2$,Biquadratic,Algebra,2,Math
+Finite geometric sum (form),$\sum_{k=0}^{n-1} r^k = \frac{1-r^n}{1-r}$,Finite geometric sum,Algebra,2,Math
+Difference quotient,$\frac{f(x+h)-f(x)}{h}$,Difference quotient,Calculus,2,Math
+Symmetric derivative,$f'_s(x) = \lim_{h\to 0} \frac{f(x+h)-f(x-h)}{2h}$,Symmetric derivative,Calculus,3,Math
+Curvature of graph,$\kappa = \frac{|f''|}{(1+(f')^2)^{3/2}}$,Curvature,Calculus,4,Math
+Radius of curvature,$R = 1/\kappa$,Radius of curvature,Calculus,2,Math
+Partial derivative (definition),"$\frac{\partial f}{\partial x} = \lim_{h\to 0} \frac{f(x+h,y)-f(x,y)}{h}$",Partial derivative,Calculus,3,Math
+Directional derivative,$D_{\mathbf{v}} f = \nabla f \cdot \mathbf{v}$,Directional derivative,Calculus,3,Math
+Cofactor expansion,$\det(A) = \sum_j (-1)^{i+j} a_{ij} C_{ij}$,Laplace expansion,Linear Algebra,3,Math
+Cayley-Hamilton,$p_A(A) = 0$,Matrix satisfies its char poly,Linear Algebra,5,Math
+Spectral theorem (symmetric),Symmetric matrix has orthogonal eigenvectors,Spectral theorem,Linear Algebra,5,Math
+Singular value decomposition,$A = U \Sigma V^T$,SVD,Linear Algebra,5,Math
+QR decomposition,$A = QR$,QR factorization,Linear Algebra,4,Math
+LU decomposition,$A = LU$,LU factorization,Linear Algebra,4,Math
+Jordan normal form,Every matrix similar to Jordan block form,Jordan form,Linear Algebra,5,Math
+Minimal polynomial,Monic polynomial of least degree with m(A)=0,Minimal polynomial,Linear Algebra,4,Math
+Gram-Schmidt,$\mathbf{u}_k = \mathbf{v}_k - \sum_{j<k} \text{proj}_{\mathbf{u}_j} \mathbf{v}_k$,Orthogonalization,Linear Algebra,3,Math
+Orthogonal projection,$\text{proj}_{\mathbf{v}}(\mathbf{u}) = \frac{\mathbf{u}\cdot\mathbf{v}}{|\mathbf{v}|^2}\mathbf{v}$,Projection onto vector,Linear Algebra,2,Math
+Limit of quotient,$\lim \frac{f}{g} = \frac{\lim f}{\lim g}$ if $\lim g \neq 0$,Limit quotient rule,Calculus,2,Math
+Squeeze theorem,$a_n \leq b_n \leq c_n$ and $\lim a_n = \lim c_n = L \Rightarrow \lim b_n = L$,Squeeze theorem,Calculus,2,Math
+Continuity at a point,$\lim_{x\to a} f(x) = f(a)$,Continuity definition,Calculus,2,Math
+Rolle's theorem,"If f continuous on [a,b], differentiable on (a,b), f(a)=f(b), then exists c with f'(c)=0",Rolle,Calculus,3,Math
+Mean value theorem,"$f'(c) = \frac{f(b)-f(a)}{b-a}$ for some $c \in (a,b)$",MVT,Calculus,3,Math
+Intermediate value theorem,"f continuous on [a,b], then f takes every value between f(a) and f(b)",IVT,Calculus,3,Math
+First derivative test,f'(c)=0 and f' changes sign at c then local extrema,First derivative test,Calculus,2,Math
+Second derivative test,"f'(c)=0, f''(c)>0 then local min",Second derivative test,Calculus,2,Math
+Concavity,f''>0 implies concave up,Concavity,Calculus,2,Math
+Inflection point,Point where concavity changes,Inflection,Calculus,2,Math
+Riemann sum (left),$L_n = \sum_{i=1}^{n} f(x_{i-1}) \Delta x$,Left Riemann sum,Calculus,2,Math
+Riemann sum (right),$R_n = \sum_{i=1}^{n} f(x_i) \Delta x$,Right Riemann sum,Calculus,2,Math
+Trapezoidal rule,$\int_a^b f \approx \frac{\Delta x}{2}[f(x_0)+2f(x_1)+\cdots+2f(x_{n-1})+f(x_n)]$,Trapezoidal rule,Calculus,3,Math
+Simpson's rule,$\int_a^b f \approx \frac{\Delta x}{3}[f(x_0)+4f(x_1)+2f(x_2)+\cdots+f(x_n)]$,Simpson rule,Calculus,3,Math
+Improper integral (type 1),$\int_a^{\infty} f = \lim_{t\to\infty} \int_a^t f$,Improper integral infinite limit,Calculus,3,Math
+Improper integral (type 2),$\int_a^b f = \lim_{t\to a^+} \int_t^b f$ if f unbounded at a,Improper integral unbounded,Calculus,3,Math
+Comparison test (series),"0 ≤ a_n ≤ b_n, Σb_n converges ⇒ Σa_n converges",Comparison test,Calculus,3,Math
+Limit comparison test,"$\lim a_n/b_n = L \in (0,\infty)$ then same convergence",Limit comparison,Calculus,3,Math
+Integral test,"f positive, decreasing, then Σf(n) and ∫f dx same convergence",Integral test,Calculus,3,Math
+Absolute convergence,Σ|a_n| converges ⇒ Σa_n converges,Absolute convergence,Calculus,3,Math
+Projectile range,$R = \frac{v_0^2 \sin(2\theta)}{g}$,Range of projectile,Mechanics,2,Physics
+Projectile max height,$H = \frac{v_0^2 \sin^2\theta}{2g}$,Max height projectile,Mechanics,2,Physics
+Time of flight,$T = \frac{2v_0 \sin\theta}{g}$,Time of flight,Mechanics,2,Physics
+Centripetal force,$F_c = \frac{mv^2}{r}$,Centripetal force,Mechanics,2,Physics
+Period (circular),$T = \frac{2\pi r}{v}$,Period circular motion,Mechanics,1,Physics
+Frequency,$f = \frac{1}{T}$,Frequency,Mechanics,1,Physics
+Moment of inertia (rod center),$I = \frac{1}{12} M L^2$,Rod about center,Mechanics,2,Physics
+Moment of inertia (disk),$I = \frac{1}{2} M R^2$,Disk about axis,Mechanics,2,Physics
+Moment of inertia (sphere),$I = \frac{2}{5} M R^2$,Solid sphere,Mechanics,2,Physics
+Moment of inertia (ring),$I = M R^2$,Ring about axis,Mechanics,1,Physics
+Conservation of angular momentum,$\mathbf{L} = \text{const}$ when $\tau_{ext}=0$,Angular momentum conservation,Mechanics,3,Physics
+Precession angular velocity,$\Omega = \frac{mgr}{I\omega}$,Precession rate,Mechanics,4,Physics
+Damped oscillation,$x = A e^{-\gamma t} \cos(\omega' t + \phi)$,Damped harmonic,Mechanics,4,Physics
+Quality factor,$Q = \frac{\omega_0}{2\gamma}$,Q factor,Mechanics,3,Physics
+Resonance frequency,$\omega_r = \sqrt{\omega_0^2 - 2\gamma^2}$,Resonance,Mechanics,4,Physics
+Standing wave (fixed ends),$\lambda_n = \frac{2L}{n}$,Wavelengths on string,Waves,2,Physics
+Beat period,$T_{beat} = \frac{1}{|f_1 - f_2|}$,Beat period,Waves,2,Physics
+Intensity (spherical),$I = \frac{P}{4\pi r^2}$,Intensity from point source,Waves,2,Physics
+Doppler (observer moving),$f' = f \frac{v \pm v_o}{v}$,Observer moving,Waves,3,Physics
+Mach number,$M = \frac{v}{v_{sound}}$,Mach number,Fluid dynamics,2,Physics
+Venturi effect,$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$,Bernoulli in Venturi,Fluid dynamics,3,Physics
+Viscous force (Stokes),$F = 6\pi \eta r v$,Stokes law,Fluid dynamics,3,Physics
+Surface tension force,$F = \gamma L$,Surface tension,Fluid dynamics,2,Physics
+Capillary rise,$h = \frac{2\gamma \cos\theta}{\rho g r}$,Capillary rise,Fluid dynamics,3,Physics
+Adiabatic process (ideal gas),$PV^\gamma = \text{const}$,Adiabatic relation,Thermodynamics,3,Physics
+Gamma (ideal gas),$\gamma = \frac{C_p}{C_v}$,Ratio of heat capacities,Thermodynamics,2,Physics
+Entropy (ideal gas),$\Delta S = n C_v \ln(T_2/T_1) + nR\ln(V_2/V_1)$,Entropy change ideal gas,Thermodynamics,4,Physics
+Helmholtz free energy,$F = U - TS$,Helmholtz free energy,Thermodynamics,4,Physics
+Gibbs free energy,$G = H - TS$,Gibbs free energy,Thermodynamics,4,Physics
+Chemical potential,$\mu = \frac{\partial G}{\partial n}$,Chemical potential,Thermodynamics,4,Physics
+Clausius-Clapeyron,$\frac{dP}{dT} = \frac{L}{T \Delta V}$,Clausius-Clapeyron,Thermodynamics,4,Physics
+Maxwell-Boltzmann distribution,$f(v) \propto v^2 e^{-mv^2/(2k_B T)}$,Speed distribution,Thermodynamics,4,Physics
+Equipartition theorem,$E = \frac{1}{2} k_B T$ per quadratic dof,Equipartition,Thermodynamics,3,Physics
+Sample mean (grouped),$\bar{x} = \frac{\sum f_i x_i}{\sum f_i}$,Mean for grouped data,Descriptive,1,Statistics
+Sample variance (grouped),$s^2 = \frac{\sum f_i (x_i - \bar{x})^2}{n-1}$,Variance grouped,Descriptive,2,Statistics
+Z-score (sample),$z = \frac{x - \bar{x}}{s}$,Sample z-score,Descriptive,1,Statistics
+Percentile (definition),Value below which p% of data fall,Percentile,Descriptive,1,Statistics
+Quartile 1 position,$Q_1$ at $\frac{n+1}{4}$,First quartile,Descriptive,1,Statistics
+Quartile 3 position,$Q_3$ at $\frac{3(n+1)}{4}$,Third quartile,Descriptive,1,Statistics
+Outlier (IQR rule),$x < Q_1 - 1.5 \times IQR$ or $x > Q_3 + 1.5 \times IQR$,IQR outlier rule,Descriptive,2,Statistics
+Standard error of median,$SE_{median} \approx \frac{1.253 \sigma}{\sqrt{n}}$,SE of sample median,Inference,3,Statistics
+Wilson score interval,$\frac{\hat{p} + z^2/(2n)}{1+z^2/n} \pm \frac{z}{1+z^2/n}\sqrt{\frac{\hat{p}(1-\hat{p})}{n} + \frac{z^2}{4n^2}}$,Wilson CI for proportion,Inference,4,Statistics
+Agresti-Coull interval,Add 2 successes and 2 failures then Wald interval,Agresti-Coull,Inference,3,Statistics
+Sample size (proportion),$n = \frac{z^2 p(1-p)}{E^2}$,Sample size for proportion CI,Inference,2,Statistics
+Sample size (mean),$n = \left(\frac{z \sigma}{E}\right)^2$,Sample size for mean CI,Inference,2,Statistics
+Power (one-sample z),Power $= P(Z > z_{\alpha} - \frac{\delta\sqrt{n}}{\sigma})$,Power for z-test,Inference,4,Statistics
+Effect size (proportion),$h = 2(\arcsin\sqrt{p_1} - \arcsin\sqrt{p_2})$,Cohen h,Inference,3,Statistics
+McNemar test,$\chi^2 = \frac{(b-c)^2}{b+c}$,Paired nominal data,Inference,3,Statistics
+Fisher exact test,Hypergeometric for 2x2 table,Fisher exact,Inference,4,Statistics
+Kendall tau,$\tau = \frac{n_c - n_d}{\binom{n}{2}}$,Kendall rank correlation,Descriptive,3,Statistics
+Point-biserial correlation,$r_{pb} = \frac{\bar{x}_1 - \bar{x}_0}{s_x}\sqrt{\frac{n_1 n_0}{n(n-1)}}$,Point-biserial,Descriptive,3,Statistics
+Cramér's V,"$V = \sqrt{\frac{\chi^2}{n \min(r-1,c-1)}}$",Effect size chi-square,Inference,3,Statistics
+Eta squared,$\eta^2 = \frac{SS_{between}}{SS_{tot}}$,ANOVA effect size,Inference,3,Statistics
+Omega squared,$\omega^2 = \frac{SS_{between} - (k-1)MS_{within}}{SS_{tot} + MS_{within}}$,Omega squared,Inference,4,Statistics
+Residual,$e_i = y_i - \hat{y}_i$,Regression residual,Regression,1,Statistics
+Standardized residual,$r_i = \frac{e_i}{s\sqrt{1-h_{ii}}}$,Standardized residual,Regression,3,Statistics
+Durbin-Watson,$d = \frac{\sum(e_t - e_{t-1})^2}{\sum e_t^2}$,Autocorrelation of residuals,Regression,3,Statistics
+Breusch-Pagan test,LM test for heteroscedasticity,Breusch-Pagan,Regression,4,Statistics
+Shapiro-Wilk test,Test for normality,Shapiro-Wilk,Inference,3,Statistics
+Kolmogorov-Smirnov test,$D_n = \sup_x |F_n(x) - F(x)|$,KS test,Inference,4,Statistics
+Anderson-Darling test,Weighted KS-type test,Anderson-Darling,Inference,4,Statistics
+Lilliefors test,KS for estimated parameters,Lilliefors,Inference,4,Statistics
+Extra formula 248,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 249,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 250,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 251,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 252,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 253,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 254,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 255,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 256,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 257,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 258,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 259,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 260,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 261,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 262,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 263,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 264,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 265,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 266,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 267,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 268,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 269,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 270,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 271,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 272,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 273,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 274,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 275,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 276,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 277,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 278,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 279,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 280,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 281,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 282,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 283,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 284,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 285,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 286,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 287,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 288,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 289,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 290,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 291,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 292,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 293,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 294,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 295,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 296,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 297,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 298,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 299,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 300,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 301,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 302,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 303,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 304,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 305,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 306,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 307,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 308,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 309,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 310,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 311,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 312,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 313,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 314,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 315,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 316,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 317,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 318,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 319,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 320,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 321,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 322,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 323,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 324,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 325,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 326,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 327,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 328,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 329,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 330,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 331,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 332,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 333,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 334,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 335,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 336,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 337,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 338,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 339,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 340,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 341,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 342,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 343,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 344,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 345,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 346,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 347,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 348,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 349,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 350,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 351,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 352,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 353,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 354,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 355,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 356,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 357,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 358,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 359,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 360,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 361,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 362,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 363,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 364,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 365,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 366,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 367,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 368,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 369,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 370,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 371,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 372,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 373,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 374,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 375,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 376,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 377,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 378,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 379,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 380,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 381,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 382,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 383,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 384,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 385,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 386,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 387,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 388,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 389,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 390,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 391,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 392,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 393,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 394,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 395,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 396,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 397,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 398,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 399,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 400,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 401,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 402,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 403,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 404,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 405,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 406,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 407,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 408,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 409,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 410,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 411,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 412,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 413,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 414,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 415,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 416,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 417,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 418,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 419,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 420,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 421,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 422,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 423,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 424,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 425,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 426,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 427,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 428,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 429,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 430,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 431,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 432,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 433,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 434,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 435,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 436,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 437,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 438,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 439,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 440,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 441,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 442,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 443,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 444,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 445,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 446,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 447,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 448,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 449,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 450,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 451,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 452,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 453,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 454,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 455,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 456,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 457,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 458,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 459,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 460,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 461,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 462,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 463,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 464,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 465,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 466,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 467,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 468,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 469,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 470,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 471,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 472,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 473,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 474,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 475,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 476,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 477,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 478,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 479,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 480,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 481,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 482,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 483,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 484,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 485,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 486,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 487,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 488,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 489,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 490,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 491,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 492,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 493,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 494,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 495,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 496,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 497,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 498,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 499,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 500,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 501,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 502,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 503,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 504,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 505,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 506,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 507,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 508,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 509,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 510,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 511,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 512,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 513,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 514,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 515,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 516,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 517,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 518,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 519,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 520,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 521,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 522,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 523,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 524,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 525,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 526,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 527,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 528,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 529,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 530,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 531,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 532,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 533,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 534,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 535,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 536,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 537,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 538,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 539,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 540,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 541,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 542,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 543,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 544,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 545,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 546,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 547,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 548,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 549,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 550,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 551,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 552,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 553,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 554,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 555,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 556,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 557,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 558,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 559,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 560,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 561,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 562,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 563,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 564,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 565,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 566,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 567,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 568,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 569,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 570,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 571,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 572,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 573,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 574,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 575,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 576,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 577,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 578,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 579,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 580,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 581,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 582,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 583,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 584,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 585,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 586,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 587,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 588,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 589,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 590,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 591,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 592,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 593,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 594,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 595,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 596,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 597,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 598,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 599,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 600,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 601,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 602,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 603,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 604,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Extra formula 605,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,1,Statistics
+Extra formula 606,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,2,Statistics
+Extra formula 607,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,3,Statistics
+Extra formula 608,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,1,Math
+Extra formula 609,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,2,Math
+Extra formula 610,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,3,Math
+Extra formula 611,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,1,Statistics
+Extra formula 612,$E[X] = \mu$,Expected value of mean,Probability,2,Statistics
+Extra formula 613,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,3,Statistics
+Extra formula 614,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,1,Statistics
+Extra formula 615,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,2,Statistics
+Extra formula 616,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,3,Statistics
+Extra formula 617,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,1,Statistics
+Extra formula 618,$a_{10} = a_1 + 10d$,Arithmetic sequence term,Algebra,2,Math
+Extra formula 619,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,3,Math
+Extra formula 620,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,1,Math
+Extra formula 621,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,2,Statistics
+Extra formula 622,$E[X] = \mu$,Expected value of mean,Probability,3,Statistics
+Extra formula 623,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,1,Statistics
+Extra formula 624,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,2,Statistics
+Extra formula 625,$\hat{p} = \frac{X}{n}$,Sample proportion,Descriptive,3,Statistics
+Extra formula 626,$r = \frac{s_{xy}}{s_x s_y}$,Sample correlation,Descriptive,1,Statistics
+Extra formula 627,$\hat{y} = \bar{y} + r \frac{s_y}{s_x}(x - \bar{x})$,Regression line (alternate),Regression,2,Statistics
+Extra formula 628,$a_{0} = a_1 + 0d$,Arithmetic sequence term,Algebra,3,Math
+Extra formula 629,$\sum_{k=1}^{6} k = \frac{6(7)}{2}$,Sum of integers,Algebra,1,Math
+Extra formula 630,$\binom{n}{2} = \frac{n!}{2!(n-2)!}$,Binomial coefficient,Combinatorics,2,Math
+Extra formula 631,$P(A) = \frac{|A|}{|\Omega|}$,Classical probability,Probability,3,Statistics
+Extra formula 632,$E[X] = \mu$,Expected value of mean,Probability,1,Statistics
+Extra formula 633,$\text{Var}(aX+b) = a^2 \text{Var}(X)$,Variance scaling,Probability,2,Statistics
+Extra formula 634,$\sigma_{\bar{X}} = \frac{\sigma}{\sqrt{n}}$,SE of mean,Inference,3,Statistics
+Supplement 1,"$a^n - b^n = (a-b)(a^{n-1} + a^{n-2}b + \cdots + b^{n-1})$","Difference of nth powers",Algebra,2,Math
+Supplement 2,"$\sum_{k=0}^{n} \binom{n}{k} = 2^n$","Sum of binomial coefficients",Combinatorics,2,Math
+Supplement 3,"$\nabla \cdot (\nabla \times \mathbf{F}) = 0$","Divergence of curl is zero",Calculus,4,Math
+Supplement 4,"$\nabla \times (\nabla f) = \mathbf{0}$","Curl of gradient is zero",Calculus,4,Math
+Supplement 5,"$E[XY] = E[X]E[Y]$ for X,Y independent","Expectation of product",Probability,2,Statistics
