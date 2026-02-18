@@ -1,0 +1,23 @@
+# Build output
+build/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Env / secrets (if you add IPFS keys etc.)
+.env
+.env.local
+*.pem

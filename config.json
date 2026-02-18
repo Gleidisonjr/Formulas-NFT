@@ -1,0 +1,13 @@
+{
+  "collection_name": "Math Formula NFT",
+  "collection_description": "NFTs of mathematical formulas from Statistics, Math, and Physics — from the most basic to the most complex. Each piece is a clean formula on white background.",
+  "external_url": "https://opensea.io/collection/your-collection-slug",
+  "image": {
+    "width": 3000,
+    "height": 3000,
+    "dpi": 150,
+    "background_color": "ffffff"
+  },
+  "metadata_base_url": "https://your-ipfs-or-domain.com/metadata/",
+  "image_base_url": "https://your-ipfs-or-domain.com/images/"
+}
